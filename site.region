@@ -1,267 +1,87 @@
 <!doctype html>
-<html class="touch-styles"{.if authenticatedAccount} data-authenticated-account{.end}>
+<html class="touch-styles"{.if authenticatedAccount} data-authenticated-account{.end} lang="en-GB">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    {.if template.mobileStylesEnabled}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {.end}
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="preload" href="/assets/google-sans-flex.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/all-junk-van-slider.webp" as="image" imagesrcset="/assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" imagesizes="100vw" fetchpriority="high">
     {squarespace-headers}
-    <script>/* Must be below squarespace-headers */(function(){var e='ontouchstart'in window||navigator.msMaxTouchPoints;var t=document.documentElement;if(!e&&t){t.className=t.className.replace(/touch-styles/,'')}})()
-    </script>
+    <link rel="stylesheet" href="/assets/alljunk.css">
+    <link rel="stylesheet" href="/assets/location-pages.css">
   </head>
-  <body id="{squarespace.page-id}" class="{squarespace.page-classes}{.if item}{.section item}{.if productType}{.or}{.background-source-video?} has-banner-image item-main-image{.or}{.main-image?} has-banner-image item-main-image{.end}{.end}{.end}{.end}{.or}{.section collection}{.collectionTypeNameEquals? index}{.section collections}{.section 0}{.background-source-video?} has-banner-image index-page{.or}{.main-image?} has-banner-image index-page{.end}{.end}{.end}{.end}{.or}{.background-source-video?} has-banner-image general-page{.or}{.main-image?} has-banner-image general-page{.end}{.end}{.end}{.end}{.end}">
-    <div class="body-overlay"></div>
-    <div class="sqs-announcement-bar-dropzone"></div>
-    <div id="sidecarNav">
-      <squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes} alljunk-site-body">
+    <div class="top-announcement" style="background:#8dc63f;padding:9px 0;text-align:center;font-weight:900;color:#010080;font-size:14px;letter-spacing:0.02em;">
+      Environment Agency registered: CBDU195530 | 100% Sweep-Clean Guarantee
     </div>
-    <div id="siteWrapper" class="clearfix">
 
-      <div class="sqs-cart-dropzone"></div>
+    <!-- GLOBAL ALL JUNK HEADER -->
+    {@|apply alljunk-header.block}
 
-      <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
-        <div class="header-inner">
-          {.section website}<div id="{.if logoImageUrl}logoWrapper{.or}siteTitleWrapper{.end}" class="wrapper" data-content-field="site-title">
-            {.section logoImageUrl}
-              <h1 id="logoImage"><a href="/"><img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a></h1>
-            {.or}
-              <h1 id="siteTitle" class="site-title"><a href="/">{siteTitle}</a></h1>
-            {.end}
-          </div>{.end}<!--
-          --><div class="mobile-nav-toggle"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></div><div class="mobile-nav-toggle fixed-nav-toggle"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></div><!--
-          --><div id="headerNav"><squarespace:navigation navigationId="mainNav" template="navigation" /></div>
+    <!-- CONTENT ROUTING -->
+    {.if collection.homepage}
+      <!-- HOMEPAGE: FULL TARGET REDESIGN -->
+      <main id="main">
+        {@|apply alljunk-hero.block}
+        {@|apply alljunk-why-choose.block}
+        {@|apply alljunk-results.block}
+        {@|apply alljunk-pricing.block}
+        {@|apply alljunk-services.block}
+        {@|apply alljunk-demolition.block}
+        {@|apply alljunk-process.block}
+        {@|apply alljunk-reviews.block}
+        {@|apply alljunk-areas.block}
+        {@|apply alljunk-faq.block}
+        {@|apply alljunk-contact.block}
+
+        <!-- SQUARESPACE CMS CUSTOM EDITABLE BLOCKS -->
+        <div class="wrap" style="padding: 20px 0;">
+          <squarespace:block-field id="alljunk-home-custom-blocks" columns="12" />
         </div>
-      </header>
 
-      {.if item}
-        {.section item}
-          {.if productType}
-          {.or}
-            {.if startDate}
-              {.main-image?}
-                <div class="banner-thumbnail-wrapper" data-content-field="main-image">
-                  <div class="color-overlay"></div>
-                  <figure id="thumbnail" class="loading content-fill"><img {@|image-meta} /></figure>
-                </div>
-              {.end}
-            {.or}
-              {.main-image?}
-                <div class="banner-thumbnail-wrapper" data-content-field="main-image">
-                  <div class="color-overlay"></div>
-                  <figure id="thumbnail" class="loading content-fill"><img {@|image-meta} /></figure>
-                  <div class="blog-item-wrapper">
-                    <div class="title-desc-wrapper">
-                      <time class="dt-published published post-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
-                      <div class="post-category">{.section categories}{.repeated section @}<a href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with}, {.end}{.end}</div>
-                      <div class="post-author"><a href="{collection.fullUrl}?author={author.id}">{.section author}{displayName}{.end}</a></div>
-                      {.section title}<div class="post-title">{@}</div>{.end}
-                    </div>
-                  </div>
-                </div>
-              {.end}
-            {.end}
-          {.end}
-        {.end}
-      {.or}
-        {.section collection}
-          {.collectionTypeNameEquals? gallery}
-          {.or}
-            {.collectionTypeNameEquals? index}
-            {.or}
-              {.collectionTypeNameEquals? page}
-                <div id="promotedGalleryWrapper" class="sqs-layout promoted-gallery-wrapper"><div class="row"><div class="col"></div></div></div>
-                {.background-source-video?}
-                    <div class="banner-thumbnail-wrapper{.if description} has-description{.end}" data-content-field="main-image" data-collection-id="{collection.id}" data-edit-main-image="{localizedStrings.banner}" data-annotation-alignment="bottom left">
-                      <div class="color-overlay"></div>
-                      <figure id="thumbnail" class="loading content-fill">
-                        {@|apply sqs-video-background.block}
-                      </figure>
-                      {.if description}<div class="desc-wrapper" data-content-field="description" data-collection-id="{id}">{description}</div>{.end}
-                    </div>
-                {.or}
-                  {.main-image?}
-                    <div class="banner-thumbnail-wrapper{.if description} has-description{.end}" data-content-field="main-image" data-collection-id="{collection.id}" data-edit-main-image="{localizedStrings.banner}" data-annotation-alignment="bottom left">
-                      {.section mainImage}
-                      <div class="color-overlay"></div>
-                      <figure id="thumbnail" class="loading content-fill">
-                        <img {@|image-meta} />
-                      </figure>
-                      {.end}
-                      {.if description}<div class="desc-wrapper" data-content-field="description" data-collection-id="{id}">{description}</div>{.end}
-                    </div>
-                  {.end}
-                {.end}
-              {.or}
-                {.collectionTypeNameEquals? blog}
-                  <squarespace:query collection="{collection.urlId}" featured="true" limit="5">
-                  {.section items}
-                    <div class="sqs-featured-posts-gallery">
-
-                      <div class="gallery-wrapper">
-
-                        <!--FULL SIZE IMAGES-->
-
-                        <div class="slides-controls">
-                          <div class="posts">
-                            {.repeated section @}
-
-                              <!--SLIDE-->
-
-                              <div class="post{.main-image?}{.or} no-main-image{.end} content-fill" data-slide-id="{id}">
-
-                                <div class="title-desc-wrapper">
-                                  <time class="dt-published published post-date" datetime="{addedOn|date %F}" pubdate>{addedOn|datetime date:long}</time>
-                                  <div class="post-category">{.section categories}{.repeated section @}{@}{.alternates with}, {.end}{.end}</div>
-                                  <div class="post-author">{.section author}{displayName}{.end}</div>
-                                  {.section title}<div class="post-title"><a href="{fullUrl}">{@|truncate 48}</a></div>{.end}
-                                  {.excerpt?}<div class="post-excerpt">{excerpt}</div>{.end}
-                                  <a href="{fullUrl}" class="view-post" data-view-post="{localizedStrings.viewPost}"></a>
-                                </div>
-
-                                <div class="color-overlay"></div>
-
-                                {.main-image?}
-                                  <img data-load="viewport" {@|image-meta}>
-                                {.end}
-                              </div>
-
-                            {.end}
-                          </div>
-
-                          {.section 1}
-                            <!--PREVIOUS/NEXT CONTROLS-->
-                            <span class="arrow previous-slide"></span>
-                            <span class="arrow next-slide"></span>
-                          {.end}
-
-                          <!--CIRCLES-->
-                          <div class="circles gallery-nav">
-                            {.repeated section @}
-                              <span class="circle"></span>
-                            {.end}
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  {.or}
-                    {.section collection}
-
-                      {.background-source-video?}
-                        <div class="banner-thumbnail-wrapper{.if description} has-description{.end}" data-content-field="main-image">
-                          <div class="color-overlay"></div>
-                          <figure id="thumbnail" class="loading content-fill">
-                            {@|apply sqs-video-background.block}
-                          </figure>
-                          {.if description}<div class="desc-wrapper" data-content-field="description">{description}</div>{.end}
-                        </div>
-                      {.or}
-                        {.section mainImage}
-                          <div class="banner-thumbnail-wrapper{.if description} has-description{.end}" data-content-field="main-image">
-                            <div class="color-overlay"></div>
-                            <figure id="thumbnail" class="loading content-fill">
-                              <img {@|image-meta} />
-                            </figure>
-                            {.if description}<div class="desc-wrapper" data-content-field="description">{description}</div>{.end}
-                          </div>
-                        {.end}
-                      {.end}
-
-                    {.end}
-                  {.end}
-                  </squarespace:query>
-                {.or}
-
-                  {.background-source-video?}
-                    <div class="banner-thumbnail-wrapper{.if description} has-description{.end}" data-content-field="main-image">
-                      <div class="color-overlay"></div>
-                      <figure id="thumbnail" class="loading content-fill">
-                        {@|apply sqs-video-background.block}
-                      </figure>
-                      {.if description}<div class="desc-wrapper" data-content-field="description">{description}</div>{.end}
-                    </div>
-                  {.or}
-                    {.section mainImage}
-                      <div class="banner-thumbnail-wrapper{.if description} has-description{.end}" data-content-field="main-image">
-                        <div class="color-overlay"></div>
-                        <figure id="thumbnail" class="loading content-fill">
-                          <img {@|image-meta} />
-                        </figure>
-                        {.if description}<div class="desc-wrapper" data-content-field="description">{description}</div>{.end}
-                      </div>
-                    {.end}
-                  {.end}
-
-                {.end}
-              {.end}
-            {.end}
-          {.end}
-        {.end}
-      {.end}
-
-
-      {.section categoryFilter}
-      <p class="filter-heading filter-by-category">
-        <a href="{collection.fullUrl}"><span>{@|safe}</span></a>
-      </p>
-      {.end}
-      {.section tagFilter}
-      <p class="filter-heading filter-by-tag">
-        <a href="{collection.fullUrl}"><span>{@|safe}</span></a>
-      </p>
-      {.end}
-      {.if authorFilter}
-      <p class="filter-heading filter-by-author">
-        <a href="{collection.fullUrl}"><span>{author.displayName}</span></a>
-      </p>
-      {.end}
-
-      <main id="page" role="main">
-        {.section collection}
-        {.collectionTypeNameEquals? products}{.section categories}<div id="categoryNav">
-          <div class="category-nav-toggle"></div>
-          <nav class="category-nav">
-            <ul class="category-nav-links">
-              <li class="nav-section-label">{navigationTitle}</li>
-              <li class="filter"><a>{localizedStrings.filter}{.if categoryFilter}: {categoryFilter}{.end}</a></li>
-              <li{.if categoryFilter}{.or} class="active-link all"{.end}><a href="{fullUrl}">{localizedStrings.allCategories}</a></li>
-              {.repeated section @}
-              <li{.equal? categoryFilter @} class="active-link"{.end}><a href="{fullUrl}?category={@|url-encode}">{@}</a></li>
-              {.end}
-            </ul>
-          </nav>
-        </div>{.end}{.end}<!--
-        -->{.collectionTypeNameEquals? page}<!--
-        --><squarespace:folder-navigation template="folder-navigation" />{.end}{.end}<!--
-        --><div id="content" class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" {.equal? collection.typeName "gallery"}{.or}{.equal? collection.typeName "index"}{.or}data-edit-main-image="{localizedStrings.banner}"{.end}{.end}>
-         {squarespace.main-content}
-        </div><!--
-        -->{.section collection}{.collectionTypeNameEquals? blog}<aside id="rightSidebar" role="complementary">
-          <squarespace:block-field class="open-block-field" id="blogBlocks-{id}" columns="12" label="{localizedStrings.blogBlocks}" />
-        </aside>
-        {.end}
-        {.end}
+        <!-- PRESERVED CMS MAIN CONTENT -->
+        <div class="sqs-main-content-wrapper" style="display:none;" aria-hidden="true">
+          {squarespace.main-content}
+        </div>
       </main>
+    {.or}
+      <!-- SUBPAGES & CMS COLLECTIONS -->
+      <main id="main" class="alljunk-subpage-main">
+        <section class="subpage-hero" style="background:#071d49;color:#fff;padding:64px 0 54px;position:relative;overflow:hidden;">
+          <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,29,73,.88),rgba(7,29,73,.55)),url('/assets/all-junk-van-street.webp') center/cover no-repeat;opacity:0.6;"></div>
+          <div class="wrap" style="position:relative;z-index:2;">
+            <nav class="crumbs" style="font-size:14px;margin-bottom:14px;color:#dfe9ff;">
+              <a href="/" style="color:#dfe9ff;text-decoration:none;">Home</a> / {.section collection}{title}{.end}
+            </nav>
+            <div style="color:#8dc63f;text-transform:uppercase;letter-spacing:.09em;font-size:13px;font-weight:900;margin-bottom:8px;">All Junk Solutions</div>
+            <h1 style="font-size:clamp(36px,5vw,56px);margin:0 0 16px;line-height:1.05;letter-spacing:-.02em;color:#fff;">
+              {.section collection}{title}{.or}{squarespace.page-title}{.end}
+            </h1>
+            <p style="font-size:19px;max-width:700px;margin:0;color:#dfe9ff;">
+              Licensed waste collection and rubbish removal across Bromley, Kent, and South East London.
+            </p>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;">
+              <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank" style="background:#8dc63f;color:#010080;padding:12px 24px;border-radius:8px;font-weight:900;text-decoration:none;">WhatsApp Quote</a>
+              <a class="btn" href="tel:+447931935833" style="background:#fff;color:#010080;padding:12px 24px;border-radius:8px;font-weight:900;text-decoration:none;">Call 07931 935 833</a>
+            </div>
+          </div>
+        </section>
 
-      <div id="preFooter">
-        <div class="pre-footer-inner">
-          <squarespace:block-field id="preFooterBlocks" columns="12" label="{localizedStrings.preFooterBlocks}" />
-        </div>
-      </div>
+        <!-- CMS PAGE CONTENT -->
+        <section class="section" style="padding:60px 0;background:#fff;">
+          <div class="wrap" style="min-height:300px;">
+            {squarespace.main-content}
+            <squarespace:block-field id="page-blocks-{collection.id}" columns="12" />
+          </div>
+        </section>
+      </main>
+    {.end}
 
-      <footer id="footer" role="contentinfo">
-        <div class="footer-inner">
-          <div class="nav-wrapper back-to-top-nav"><nav><div class="back-to-top"><a href="#header">{localizedStrings.backToTop}</a></div></nav></div>
-          <squarespace:navigation navigationId="secondaryNav" template="secondary-navigation" />
-          {.if website.location.addressTitle || website.location.addressLine1 || website.location.addressLine2 || website.location.addressCountry}<div id="siteInfo">{.or}{.if websiteSettings.contactPhoneNumber || websiteSettings.contactEmail}<div id="siteInfo">{.end}{.end}{.section website}{.section location}{.if addressTitle || addressLine1 || addressLine2 || addressCountry}<span class="site-address">{.end}{.if addressTitle}{addressTitle}{.end}{.if addressLine1}{.if addressTitle}, {.end}{addressLine1}{.end}{.if addressLine2}{.if addressTitle || addressLine1}, {.or}{.end}{addressLine2}{.end}{.if addressCountry}{.if addressTitle || addressLine1 || addressLine2}, {.end}{addressCountry}{.end}{.if addressTitle || addressLine1 || addressLine2 || addressCountry}</span>{.end}{.end}{.end}{.section websiteSettings}{.if contactPhoneNumber}<span rel="tel" class="site-phone">{contactPhoneNumber}</span>{.end}{.if contactEmail}<a href="mailto:{contactEmail}" class="site-email"><span>{contactEmail}</span></a>{.end}{.end}{.if website.location.addressTitle || website.location.addressLine1 || website.location.addressLine2 || website.location.addressCountry}</div>{.or}{.if websiteSettings.contactPhoneNumber || websiteSettings.contactEmail}</div>{.end}{.end}
-          <squarespace:block-field id="footerBlocks" columns="12" label="{localizedStrings.footerBlocks}" />
-        </div>
-      </footer>
+    <!-- GLOBAL ALL JUNK FOOTER -->
+    {@|apply alljunk-footer.block}
 
-    </div>
-
-    <squarespace:script src="site-bundle.js" combo="false" />
+    <!-- INTERACTIVE JAVASCRIPT -->
+    <script src="/assets/alljunk.js" defer></script>
     {squarespace-footers}
-
   </body>
 </html>

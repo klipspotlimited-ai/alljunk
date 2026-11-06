@@ -1,0 +1,40 @@
+<section class="demolition" id="demolition">
+<div class="wrap">
+<div class="section-head">
+<div class="section-kicker">Demolition services</div>
+<h2>Garage, shed and small outbuilding demolition</h2>
+<p>All Junk Solutions can take down unwanted garages, sheds and small garden buildings, clear the waste and leave the area ready for what comes next.</p>
+</div>
+<div class="demolition-layout">
+<div class="demolition-feature">
+<img alt="Garden shed before demolition by All Junk Solutions" decoding="async" height="1050" loading="lazy" src="/assets/demolition-shed-feature.webp" width="1400"/>
+<div class="demolition-badge">
+<strong>Take down, load and clear</strong>
+<span>Send photos of the structure on WhatsApp for a practical demolition quote.</span>
+</div>
+</div>
+<div class="demolition-panel">
+<div aria-label="Demolition services" class="demolition-services">
+<div class="demo-point">Garage demolition<span>Old detached garages, blockwork structures and unwanted outbuildings.</span></div>
+<div class="demo-point">Shed removal<span>Timber sheds, garden stores and small outdoor structures dismantled and removed.</span></div>
+<div class="demo-point">Rip-outs included<span>Doors, frames, fittings, panels and mixed construction waste cleared.</span></div>
+<div class="demo-point">Site left tidy<span>Waste loaded, removed and disposed of through responsible routes.</span></div>
+</div>
+<div class="demo-comparisons">
+<div class="demo-pair">
+<figure><img alt="Garage structure before demolition" decoding="async" height="1053" loading="lazy" src="/assets/demolition-garage-before.webp" width="1400"/><figcaption>Before</figcaption></figure>
+<figure><img alt="Area cleared after garage demolition" decoding="async" height="1400" loading="lazy" src="/assets/demolition-garage-after.webp" width="1050"/><figcaption>After</figcaption></figure>
+</div>
+<div class="demo-pair">
+<figure><img alt="Garden shed before demolition and removal" decoding="async" height="1400" loading="lazy" src="/assets/demolition-shed-before.webp" width="1050"/><figcaption>Before</figcaption></figure>
+<figure><img alt="Concrete pad cleared after shed demolition" decoding="async" height="1400" loading="lazy" src="/assets/demolition-shed-after.webp" width="1050"/><figcaption>After</figcaption></figure>
+</div>
+</div>
+<div class="demolition-cta">
+<p>Got a garage or shed to remove? Send photos and the postcode for a clear quote.</p>
+<a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20garage%20or%20shed%20demolition%20quote" rel="noopener" target="_blank">Get a Demolition Quote</a>
+</div>
+</div>
+</div>
+</div>
+</section>

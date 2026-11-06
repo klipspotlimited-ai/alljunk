@@ -1,0 +1,36 @@
+<section class="why-section" id="why-choose">
+<div class="wrap why-grid">
+<div class="why-media">
+<div aria-label="Before and after clearance comparison" class="before-after-slider" data-before-after="">
+<img alt="Driveway rubbish before All Junk Solutions clearance" class="before-img" decoding="async" height="1600" loading="lazy" sizes="(max-width: 640px) calc(100vw - 40px), 50vw" src="/assets/why-before.webp" srcset="/assets/why-before-720.webp 720w, /assets/why-before.webp 1200w" width="1200"/>
+<img alt="Driveway cleared after All Junk Solutions rubbish removal" class="after-img" decoding="async" height="1600" loading="lazy" sizes="(max-width: 640px) calc(100vw - 40px), 50vw" src="/assets/why-after.webp" srcset="/assets/why-after-720.webp 720w, /assets/why-after.webp 1200w" width="1200"/>
+<span class="ba-label before">Before</span>
+<span class="ba-label after">After</span>
+<button aria-hidden="true" class="ba-handle" tabindex="-1" type="button"><span>‹›</span></button>
+<input aria-label="Move before and after comparison slider" class="ba-range" max="92" min="8" type="range" value="52"/>
+</div>
+<div class="carrier-badge">
+<strong>Registered carrier</strong>
+<span>CBDU195530</span>
+</div>
+</div>
+<div class="why-content">
+<div class="section-kicker">Why choose All Junk</div>
+<h2>Rubbish cleared without creating another problem</h2>
+<p class="why-lead">You get a clear quote, reliable arrival and a tidy result from a licensed local team.</p>
+<p class="why-copy">All Junk Solutions handles domestic and commercial clearances across Bromley, Kent and South East London. Send a few photos, agree the price, then let the team load, remove and dispose of the waste properly.</p>
+<ul aria-label="Reasons to choose All Junk Solutions" class="why-list">
+<li>Fast response and dependable arrival</li>
+<li>Licensed waste carrier collection</li>
+<li>House, flat, garage and office clearances</li>
+<li>Responsible recycling and disposal route</li>
+<li>Loading and sweep-up included</li>
+<li>Clear pricing before work starts</li>
+</ul>
+<div class="why-actions">
+<a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">Get a WhatsApp Quote</a>
+<a class="btn btn-outline dark" href="tel:+447931935833">Call 07931 935 833</a>
+</div>
+</div>
+</div>
+</section>

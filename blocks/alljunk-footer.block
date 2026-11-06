@@ -1,0 +1,32 @@
+<footer class="footer">
+<div class="wrap footer-grid">
+<div>
+<img alt="All Junk Solutions" decoding="async" height="1080" loading="lazy" src="/assets/all-junk-logo-transparent.png" width="1920"/>
+<p>Junk and waste collection across Bromley, Kent and South East London. Domestic, commercial and trade clearances handled by a licensed waste carrier.</p>
+<div class="social">
+<a aria-label="Follow All Junk Solutions on Facebook" href="https://www.facebook.com/alljunksolutions/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" class="social-icon social-icon-facebook" viewbox="0 0 24 24"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v2H6v4h3v7h4v-7h3l1-4h-4V9c0-.7.3-1 1-1Z"></path></svg></a>
+<a aria-label="Follow All Junk Solutions on Instagram" href="https://www.instagram.com/alljunksolutions?igsh=YXZsOXh1OTJseWp1" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" class="social-icon social-icon-instagram" viewbox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm10.5 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"></path></svg></a>
+</div>
+</div>
+<div>
+<h3>Contact</h3>
+<ul>
+<li><a href="tel:+447931935833">07931 935 833</a></li>
+<li><a href="mailto:info@alljunksolutions.co.uk">info@alljunksolutions.co.uk</a></li>
+<li><a href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">WhatsApp a quote request</a></li>
+</ul>
+</div>
+<div>
+<h3>Areas &amp; business details</h3>
+<ul>
+<li><a href="/rubbish-removal-bromley/">Rubbish removal Bromley</a></li>
+<li><a href="/rubbish-removal-south-east-london/">Rubbish removal South East London</a></li>
+<li><a href="/rubbish-removal-kent/">Rubbish removal Kent</a></li>
+<li>Environment Agency registration: CBDU195530</li>
+<li>Company number: 10919033</li>
+<li>Mon-Fri: 7am-6pm</li>
+<li>Saturday: 7am-3pm</li>
+</ul>
+</div>
+</div>
+</footer>

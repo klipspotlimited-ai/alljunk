@@ -1,0 +1,23 @@
+<section class="cta" id="contact">
+<div class="wrap cta-grid">
+<div>
+<span class="eyebrow">Ready for a quote?</span>
+<h2>Send the photos. Get the price. Clear the space.</h2>
+<p>Use WhatsApp for the fastest route, or fill in the short form and it will open WhatsApp with your details ready to send.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">WhatsApp All Junk</a>
+<a class="btn btn-outline" href="tel:+447931935833">Call 07931 935 833</a>
+</div>
+</div>
+<form class="form" id="quoteForm">
+<div class="form-grid">
+<label>Name<input autocomplete="name" name="name" required=""/></label>
+<label>Phone number<input autocomplete="tel" name="phone" required="" type="tel"/></label>
+<label>Postcode<input autocomplete="postal-code" name="postcode" required=""/></label>
+<label>Type of waste<select name="waste" required=""><option value="">Choose one</option><option>Domestic rubbish</option><option>House or garage clearance</option><option>Furniture removal</option><option>Garden waste</option><option>Electronic waste</option><option>White goods</option><option>Builders waste</option><option>Commercial rubbish</option><option>Garage or shed demolition</option><option>Other</option></select></label>
+<label class="full">Short description<textarea name="description" required=""></textarea></label>
+</div>
+<button class="btn btn-primary" type="submit">Open WhatsApp Message</button>
+</form>
+</div>
+</section>

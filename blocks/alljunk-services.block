@@ -1,0 +1,24 @@
+<section class="services" id="services">
+<div class="wrap">
+<div class="section-head">
+<div class="section-kicker">Services</div>
+<h2>Waste collection for homes and businesses</h2>
+<p>From a few bulky items to a full business clear-out, All Junk Solutions keeps the job straightforward: quote, load, remove, sweep.</p>
+</div>
+<div class="service-grid">
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M3 11 12 4l9 7"></path><path d="M5 10v10h14V10"></path><path d="M10 20v-6h4v6"></path></svg></span><h3>Domestic rubbish</h3><p>General household junk, garage clutter and mixed home waste.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 20V8l8-4 8 4v12"></path><path d="M7 20v-7h10v7"></path><path d="M8 10h8"></path></svg></span><h3>House &amp; garage</h3><p>Clearances for rooms, garages, sheds and leftover moving waste.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M5 11h14v7H5z"></path><path d="M7 11V8h10v3"></path><path d="M7 18v2M17 18v2"></path></svg></span><h3>Furniture removal</h3><p>Chairs, tables, bed frames, sofas, mattresses and bulky pieces.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M12 21V9"></path><path d="M12 9c-4 0-6-2-6-6 4 0 6 2 6 6Z"></path><path d="M12 12c4 0 6-2 6-6-4 0-6 2-6 6Z"></path></svg></span><h3>Garden waste</h3><p>Cuttings, bags, outdoor clutter and garden clear-up waste.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><rect height="11" rx="1" width="16" x="4" y="5"></rect><path d="M8 20h8M12 16v4"></path></svg></span><h3>Electronic waste</h3><p>TVs, monitors, laptops, phones and computer equipment.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M12 3v18M3 12h18M5 5l14 14M19 5 5 19"></path></svg></span><h3>White goods</h3><p>Fridges, freezers, microwaves, washing machines and appliances.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M5 18h14"></path><path d="M8 18V9M16 18V9"></path><path d="M4 12h16"></path><path d="M12 4v14"></path></svg></span><h3>Household fittings</h3><p>Doors, sinks, bathtubs and fittings from decorating work.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 20h16"></path><path d="M6 20V9l6-3 6 3v11"></path><path d="M9 13h6"></path></svg></span><h3>Builders waste</h3><p>Renovation materials including wood, tiles, plaster and bricks.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><rect height="16" rx="1" width="14" x="5" y="4"></rect><path d="M9 8h.01M15 8h.01M9 12h.01M15 12h.01M9 16h.01M15 16h.01"></path></svg></span><h3>Commercial rubbish</h3><p>Waste collection planned around the needs of your business.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><rect height="14" rx="2" width="16" x="4" y="5"></rect><path d="M8 10h8M8 14h4"></path></svg></span><h3>Office clearance</h3><p>Desks, monitors, chairs, filing cabinets and shelving units.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M7 4v8M17 4v8M12 4v16"></path><path d="M5 20h14"></path></svg></span><h3>Restaurant clearance</h3><p>Tables, chairs, refrigeration units, cupboards and work units.</p></article>
+<article class="service-card"><span aria-hidden="true" class="icon"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 20h16"></path><path d="M7 20v-8h10v8"></path><path d="M5 12 12 5l7 7"></path><path d="m9 9 6 6"></path></svg></span><h3>Demolition services</h3><p>Garages, sheds and small outbuildings taken down, loaded and cleared.</p></article>
+</div>
+<p class="notice">All Junk Solutions does not collect toxic chemicals, gas canisters, asbestos, paint or other hazardous waste.</p>
+</div>
+</section>

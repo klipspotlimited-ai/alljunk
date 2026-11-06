@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="touch-styles"{.if authenticatedAccount} data-authenticated-account{.end} lang="en-GB">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="preload" href="/assets/google-sans-flex.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/all-junk-van-slider.webp" as="image" imagesrcset="/assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" imagesizes="100vw" fetchpriority="high">
+    {squarespace-headers}
+    <link rel="stylesheet" href="/assets/alljunk.css">
+  </head>
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes} alljunk-landing-body">
+    <div class="top" style="background:#8dc63f;padding:9px 0;text-align:center;font-weight:900;color:#010080;font-size:14px;letter-spacing:0.02em;">
+      Environment Agency registered: CBDU195530 | 100% Sweep-Clean Guarantee
+    </div>
+
+    <!-- SITE HEADER -->
+    {@|apply alljunk-header.block}
+
+    <!-- MAIN LANDING CONTENT -->
+    <main id="main">
+      {@|apply alljunk-hero.block}
+      {@|apply alljunk-why-choose.block}
+      {@|apply alljunk-results.block}
+      {@|apply alljunk-pricing.block}
+      {@|apply alljunk-services.block}
+      {@|apply alljunk-demolition.block}
+      {@|apply alljunk-process.block}
+      {@|apply alljunk-reviews.block}
+      {@|apply alljunk-areas.block}
+      {@|apply alljunk-faq.block}
+      {@|apply alljunk-contact.block}
+
+      <!-- SQUARESPACE CMS EDITABLE BLOCKS -->
+      <div class="wrap" style="padding: 20px 0;">
+        <squarespace:block-field id="landing-custom-blocks" columns="12" />
+      </div>
+
+      <!-- PRESERVED CMS CONTENT -->
+      <div class="sqs-main-content-wrapper" style="display:none;" aria-hidden="true">
+        {squarespace.main-content}
+      </div>
+    </main>
+
+    <!-- SITE FOOTER -->
+    {@|apply alljunk-footer.block}
+
+    <!-- INTERACTIVE SCRIPTS -->
+    <script src="/assets/alljunk.js" defer></script>
+    {squarespace-footers}
+  </body>
+</html>

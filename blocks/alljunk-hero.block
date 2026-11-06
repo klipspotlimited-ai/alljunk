@@ -1,0 +1,35 @@
+<section aria-label="All Junk Solutions rubbish removal" class="hero" data-slider="">
+<video aria-hidden="true" autoplay="" class="mobile-hero-video" loop="" muted="" playsinline="" poster="/assets/all-junk-van-slider-800.webp" preload="none" tabindex="-1">
+<source data-src="/assets/all-junk-fleet-mobile.mp4" type="video/mp4"/>
+</video>
+<div class="hero-bg-slider">
+<div class="hero-bg-track">
+<figure class="hero-bg-slide">
+<img alt="All Junk Solutions branded collection vehicle and team member" decoding="async" fetchpriority="high" height="1426" loading="eager" sizes="100vw" src="/assets/all-junk-van-slider.webp" srcset="/assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" width="1320"/>
+</figure>
+<figure class="hero-bg-slide">
+<img alt="All Junk Solutions branded rubbish removal van on a residential street" decoding="async" height="900" loading="lazy" sizes="100vw" src="/assets/all-junk-van-street.webp" srcset="/assets/all-junk-van-street-960.webp 960w, /assets/all-junk-van-street.webp 1600w" width="1600"/>
+</figure>
+</div>
+</div>
+<div class="wrap">
+<div class="hero-content">
+<span class="eyebrow">Junk and waste collection</span>
+<h1>Fast rubbish removal across <span>Bromley, Kent &amp; South East London</span></h1>
+<p class="hero-copy">Send us photos of your rubbish for a fast quote. We load everything, remove it responsibly and sweep the area before we leave.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">Send Photos on WhatsApp</a>
+<a class="btn btn-outline" href="tel:+447931935833">Call 07931 935 833</a>
+</div>
+<div aria-label="Service highlights" class="hero-proof">
+<div class="proof-pill"><strong>Licensed</strong><span>Waste carrier CBDU195530</span></div>
+<div class="proof-pill"><strong>75% recycled</strong><span>Existing recycling commitment</span></div>
+<div class="proof-pill"><strong>No extras</strong><span>Parking and congestion charges included</span></div>
+</div>
+</div>
+<div aria-label="Slider controls" class="slider-controls">
+<button aria-label="Previous image" data-prev="" type="button">‹</button>
+<button aria-label="Next image" data-next="" type="button">›</button>
+</div>
+</div>
+</section>

@@ -1,0 +1,36 @@
+<section class="reviews" id="reviews">
+<div class="wrap">
+<div class="section-head">
+<div class="section-kicker">Google reviews</div>
+<h2>Customers mention the same things: fast, fair, tidy</h2>
+<p>Real customer feedback for All Junk Solutions, shown in a simple rotating carousel.</p>
+</div>
+<div class="reviews-layout">
+<div class="review-carousel" data-google-reviews="" data-google-reviews-endpoint="">
+<div class="review-meta">
+<div class="google-rating">
+<span aria-hidden="true" class="google-g">G</span>
+<span><span aria-hidden="true" class="rating-stars">★★★★★</span> <span data-review-rating="">Google reviews</span></span>
+</div>
+<span class="review-source" data-review-source="">Showing customer feedback</span>
+</div>
+<div aria-atomic="true" aria-live="polite" class="review-track" data-review-track=""></div>
+<div class="review-controls">
+<div class="review-arrows">
+<button aria-label="Previous review" class="review-btn" data-review-prev="" type="button">‹</button>
+<button aria-label="Next review" class="review-btn" data-review-next="" type="button">›</button>
+</div>
+<div aria-label="Review carousel position" class="review-dots" data-review-dots=""></div>
+<a class="google-review-link" href="https://www.google.com/maps/search/?api=1&amp;query=All%20Junk%20Solutions%20Pope%20Road%20Bromley" rel="noopener" target="_blank">View on Google</a>
+</div>
+</div>
+<div class="map-card">
+<div class="map-copy">
+<h3>Find All Junk Solutions on Google Maps</h3>
+<p>Based around Bromley and covering Kent and South East London.</p>
+</div>
+<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=All%20Junk%20Solutions%20Bromley%20Kent&amp;output=embed" title="Google Map for All Junk Solutions"></iframe>
+</div>
+</div>
+</div>
+</section>

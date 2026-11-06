@@ -1,0 +1,73 @@
+<section class="pricing" id="pricing">
+<div class="wrap">
+<div class="section-head">
+<div class="section-kicker">Pricing</div>
+<h2>Simple load prices</h2>
+<p>Start with the load size, then send photos so the team can confirm what needs collecting.</p>
+</div>
+<div class="pricing-board">
+<div class="price-board-shell">
+<div class="price-board-title">
+<h3>Pricing <span>guide</span></h3>
+<p>Clear pricing. No hidden fees.</p>
+</div>
+<div class="pricing-grid">
+<article class="price-card">
+<div class="load-visual"><div><h3>Full load</h3><div class="price">£425</div></div></div>
+<div aria-hidden="true" class="truck"><span class="truck-body"><span class="truck-fill" style="width:100%"></span></span><span class="truck-cab"></span><span class="truck-window"></span><span class="wheel back"></span><span class="wheel front"></span></div>
+<p>Our largest load option, ideal for full house or large clearances.</p>
+</article>
+<article class="price-card">
+<div class="load-visual"><div><h3>3/4 load</h3><div class="price">£350</div></div></div>
+<div aria-hidden="true" class="truck"><span class="truck-body"><span class="truck-fill" style="width:75%"></span></span><span class="truck-cab"></span><span class="truck-window"></span><span class="wheel back"></span><span class="wheel front"></span></div>
+<p>Perfect for larger jobs that do not quite fill the truck.</p>
+</article>
+<article class="price-card">
+<div class="load-visual"><div><h3>1/2 load</h3><div class="price">£250</div></div></div>
+<div aria-hidden="true" class="truck"><span class="truck-body"><span class="truck-fill" style="width:50%"></span></span><span class="truck-cab"></span><span class="truck-window"></span><span class="wheel back"></span><span class="wheel front"></span></div>
+<p>Great for medium-sized jobs and partial clearances.</p>
+</article>
+<article class="price-card">
+<div class="load-visual"><div><h3>1/4 load</h3><div class="price">£125</div></div></div>
+<div aria-hidden="true" class="truck"><span class="truck-body"><span class="truck-fill" style="width:25%"></span></span><span class="truck-cab"></span><span class="truck-window"></span><span class="wheel back"></span><span class="wheel front"></span></div>
+<p>Ideal for smaller jobs or lighter loads.</p>
+</article>
+</div>
+<div aria-label="Pricing benefits" class="price-benefits">
+<div class="price-benefit"><span aria-hidden="true" class="icon">✓</span><span>Fully insured<br/>&amp; licensed</span></div>
+<div class="price-benefit"><span aria-hidden="true" class="icon">👍</span><span>Reliable,<br/>friendly service</span></div>
+<div class="price-benefit"><span aria-hidden="true" class="icon">🌱</span><span>We recycle<br/>where possible</span></div>
+</div>
+<p class="price-note">Guide prices include loading, responsible disposal and no hidden charges. Final pricing may depend on waste type and the actual load, so send clear photos on WhatsApp before booking.</p>
+<a aria-label="Send photos via WhatsApp for a free quote" class="price-whatsapp" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">
+<span aria-hidden="true" class="wa-mark">☎</span>
+<span><strong>Send photos via WhatsApp</strong><span>07931 935833</span><small>For a free quote</small></span>
+</a>
+</div>
+<aside aria-label="Pricing inclusions and additional charges" class="pricing-side">
+<div class="included-panel">
+<h3>What is included</h3>
+<ul>
+<li>Professional loading included</li>
+<li>Responsible disposal</li>
+<li>No hidden charges</li>
+<li>Fully insured and licensed</li>
+<li>Reliable, friendly service</li>
+<li>Recycling where possible</li>
+</ul>
+</div>
+<div class="extras-panel">
+<h3>Additional charges</h3>
+<div aria-label="Extra item prices" class="extras-grid">
+<div class="extra">Minimum charge <span>£30</span></div>
+<div class="extra">Gas bottles &amp; tyres <span>From £10</span></div>
+<div class="extra">Single mattress <span>£30</span></div>
+<div class="extra">Double or larger mattress <span>£40</span></div>
+<div class="extra">Fridge &amp; freezer <span>From £55</span></div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">Send Photos via WhatsApp</a>
+</aside>
+</div>
+</div>
+</section>
