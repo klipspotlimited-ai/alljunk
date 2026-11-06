@@ -3,6 +3,22 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- SOCIAL SHARING / OPEN GRAPH PREVIEW -->
+    <meta property="og:site_name" content="All Junk Solutions">
+    <meta property="og:title" content="All Junk Solutions | Rubbish Removal Bromley &amp; Kent">
+    <meta property="og:description" content="Reliable rubbish removal, house clearances and waste collection across Bromley, Kent and South East London. Get a free quote today.">
+    <meta property="og:url" content="https://alljunksolutions.co.uk/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://alljunksolutions.co.uk/assets/all-junk-social-preview.jpg">
+    <meta property="og:image:secure_url" content="https://alljunksolutions.co.uk/assets/all-junk-social-preview.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="All Junk Solutions - Rubbish Removal Made Easy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="All Junk Solutions | Rubbish Removal Bromley &amp; Kent">
+    <meta name="twitter:description" content="Reliable rubbish removal, house clearances and waste collection across Bromley, Kent and South East London. Get a free quote today.">
+    <meta name="twitter:image" content="https://alljunksolutions.co.uk/assets/all-junk-social-preview.jpg">
     <link rel="icon" href="/assets/favicon.ico" sizes="any">
     <link rel="preload" href="/assets/google-sans-flex.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/all-junk-van-slider.webp" as="image" imagesrcset="/assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" imagesizes="100vw" fetchpriority="high">
