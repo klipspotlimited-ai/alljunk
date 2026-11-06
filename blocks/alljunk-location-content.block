@@ -1,0 +1,95 @@
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / {.section collection}{title}{.end}</nav>
+      <div class="kicker">Local rubbish removal</div>
+      <h1>{.section collection}{title}{.or}Rubbish Removal &amp; Waste Collection{.end}</h1>
+      <p>A licensed local team for household junk, garden waste, bulky items, garage clearances, builders waste and commercial collections.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">Send Photos on WhatsApp</a>
+        <a class="btn secondary" href="tel:+447931935833">Call 07931 935 833</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap intro">
+      <div>
+        <div class="kicker">Local waste collection</div>
+        <h2>Clear quotes and a tidy finish</h2>
+        <p>All Junk Solutions is a local waste collection service across Bromley, Kent, and South East London. Send photographs of the waste with the collection postcode, agree the quote, and the team will load and remove the rubbish before sweeping the area.</p>
+        <p>Collections are available for homes, landlords, trades and businesses. Waste is taken through responsible disposal routes, with at least 75% recycled where possible.</p>
+      </div>
+      <aside class="panel">
+        <h3>Before booking</h3>
+        <p>Send the postcode, clear photos and a short description. Mention stairs, restricted access or unusually heavy materials so the quote reflects the job.</p>
+        <p><strong>Not collected:</strong> asbestos, toxic chemicals, gas canisters, paint or other hazardous waste.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="kicker">Services in your area</div>
+      <h2>What the team can clear</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Home and garden</h3>
+          <p>Furniture, white goods, general household rubbish, garden cuttings, soil and bulky items.</p>
+        </article>
+        <article class="card">
+          <h3>Garage and building waste</h3>
+          <p>Garage contents, renovation debris, wood, tiles, plaster, bricks and mixed builders waste.</p>
+        </article>
+        <article class="card">
+          <h3>Commercial clearance</h3>
+          <p>Office furniture, retail fixtures, restaurant equipment and planned business collections.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section area-note">
+    <div class="wrap">
+      <div>
+        <h2>Unsure whether your postcode is covered?</h2>
+        <p>Send the postcode with the photos and the team will confirm availability before quoting.</p>
+      </div>
+      <a class="btn primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20please%20check%20if%20my%20postcode%20is%20covered" rel="noopener" target="_blank">Check your postcode</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="kicker">Useful answers</div>
+      <h2>Rubbish removal questions</h2>
+      <div class="faq">
+        <article>
+          <h3>Do you load the rubbish?</h3>
+          <p>Yes. The team handles the loading and sweeps the collection area after removal.</p>
+        </article>
+        <article>
+          <h3>Is All Junk Solutions licensed?</h3>
+          <p>Yes. The website lists Environment Agency waste carrier registration CBDU195530.</p>
+        </article>
+        <article>
+          <h3>How do I get a quote?</h3>
+          <p>Send photos, your postcode and a short description through WhatsApp.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CMS Block Field for Custom Content -->
+  <div class="wrap" style="padding: 20px 0;">
+    <squarespace:block-field id="location-blocks-{collection.id}" columns="12" />
+    {squarespace.main-content}
+  </div>
+
+  <section class="section cta">
+    <div class="wrap">
+      <h2>Send photos and get a clearance quote</h2>
+      <a class="btn secondary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">WhatsApp All Junk</a>
+    </div>
+  </section>
+</main>

@@ -1,0 +1,23 @@
+<main id="main">
+  {@|apply alljunk-hero.block}
+  {@|apply alljunk-why-choose.block}
+  {@|apply alljunk-results.block}
+  {@|apply alljunk-pricing.block}
+  {@|apply alljunk-services.block}
+  {@|apply alljunk-demolition.block}
+  {@|apply alljunk-process.block}
+  {@|apply alljunk-reviews.block}
+  {@|apply alljunk-areas.block}
+  {@|apply alljunk-faq.block}
+  {@|apply alljunk-contact.block}
+
+  <!-- SQUARESPACE CMS CUSTOM EDITABLE BLOCKS -->
+  <div class="wrap" style="padding: 20px 0;">
+    <squarespace:block-field id="alljunk-home-custom-blocks" columns="12" />
+  </div>
+
+  <!-- PRESERVED CMS MAIN CONTENT -->
+  <div class="sqs-main-content-wrapper" style="display:none;" aria-hidden="true">
+    {squarespace.main-content}
+  </div>
+</main>

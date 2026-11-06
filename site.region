@@ -9,9 +9,7 @@
     {squarespace-headers}
     <link rel="stylesheet" href="/assets/alljunk.css">
     <link rel="stylesheet" href="/assets/location-pages.css">
-    {.if collection.homepage}
-      {@|apply alljunk-schema.block}
-    {.end}
+    {@|apply alljunk-schema.block}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} alljunk-site-body">
     <div class="top-announcement" style="background:#8dc63f;padding:9px 0;text-align:center;font-weight:900;color:#010080;font-size:14px;letter-spacing:0.02em;">
@@ -23,61 +21,58 @@
 
     <!-- CONTENT ROUTING -->
     {.if collection.homepage}
-      <!-- HOMEPAGE: FULL TARGET REDESIGN -->
-      <main id="main">
-        {@|apply alljunk-hero.block}
-        {@|apply alljunk-why-choose.block}
-        {@|apply alljunk-results.block}
-        {@|apply alljunk-pricing.block}
-        {@|apply alljunk-services.block}
-        {@|apply alljunk-demolition.block}
-        {@|apply alljunk-process.block}
-        {@|apply alljunk-reviews.block}
-        {@|apply alljunk-areas.block}
-        {@|apply alljunk-faq.block}
-        {@|apply alljunk-contact.block}
-
-        <!-- SQUARESPACE CMS CUSTOM EDITABLE BLOCKS -->
-        <div class="wrap" style="padding: 20px 0;">
-          <squarespace:block-field id="alljunk-home-custom-blocks" columns="12" />
-        </div>
-
-        <!-- PRESERVED CMS MAIN CONTENT -->
-        <div class="sqs-main-content-wrapper" style="display:none;" aria-hidden="true">
-          {squarespace.main-content}
-        </div>
-      </main>
+      {@|apply alljunk-landing-content.block}
     {.or}
-      <!-- SUBPAGES & CMS COLLECTIONS -->
-      <main id="main" class="alljunk-subpage-main">
-        <section class="subpage-hero" style="background:#071d49;color:#fff;padding:64px 0 54px;position:relative;overflow:hidden;">
-          <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,29,73,.88),rgba(7,29,73,.55)),url('/assets/all-junk-van-street.webp') center/cover no-repeat;opacity:0.6;"></div>
-          <div class="wrap" style="position:relative;z-index:2;">
-            <nav class="crumbs" style="font-size:14px;margin-bottom:14px;color:#dfe9ff;">
-              <a href="/" style="color:#dfe9ff;text-decoration:none;">Home</a> / {.section collection}{title}{.end}
-            </nav>
-            <div style="color:#8dc63f;text-transform:uppercase;letter-spacing:.09em;font-size:13px;font-weight:900;margin-bottom:8px;">All Junk Solutions</div>
-            <h1 style="font-size:clamp(36px,5vw,56px);margin:0 0 16px;line-height:1.05;letter-spacing:-.02em;color:#fff;">
-              {.section collection}{title}{.or}{squarespace.page-title}{.end}
-            </h1>
-            <p style="font-size:19px;max-width:700px;margin:0;color:#dfe9ff;">
-              Licensed waste collection and rubbish removal across Bromley, Kent, and South East London.
-            </p>
-            <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;">
-              <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank" style="background:#8dc63f;color:#010080;padding:12px 24px;border-radius:8px;font-weight:900;text-decoration:none;">WhatsApp Quote</a>
-              <a class="btn" href="tel:+447931935833" style="background:#fff;color:#010080;padding:12px 24px;border-radius:8px;font-weight:900;text-decoration:none;">Call 07931 935 833</a>
-            </div>
-          </div>
-        </section>
+      {.equal? collection.urlId "home"}
+        {@|apply alljunk-landing-content.block}
+      {.or}
+        {.equal? collection.urlId "home-1"}
+          {@|apply alljunk-landing-content.block}
+        {.or}
+          {.equal? collection.urlId "rubbish-removal-bromley"}
+            {@|apply alljunk-location-content.block}
+          {.or}
+            {.equal? collection.urlId "rubbish-removal-kent"}
+              {@|apply alljunk-location-content.block}
+            {.or}
+              {.equal? collection.urlId "rubbish-removal-south-east-london"}
+                {@|apply alljunk-location-content.block}
+              {.or}
+                <!-- SUBPAGES & CMS COLLECTIONS -->
+                <main id="main" class="alljunk-subpage-main">
+                  <section class="subpage-hero" style="background:#071d49;color:#fff;padding:64px 0 54px;position:relative;overflow:hidden;">
+                    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,29,73,.88),rgba(7,29,73,.55)),url('/assets/all-junk-van-street.webp') center/cover no-repeat;opacity:0.6;"></div>
+                    <div class="wrap" style="position:relative;z-index:2;">
+                      <nav class="crumbs" style="font-size:14px;margin-bottom:14px;color:#dfe9ff;">
+                        <a href="/" style="color:#dfe9ff;text-decoration:none;">Home</a> / {.section collection}{title}{.end}
+                      </nav>
+                      <div style="color:#8dc63f;text-transform:uppercase;letter-spacing:.09em;font-size:13px;font-weight:900;margin-bottom:8px;">All Junk Solutions</div>
+                      <h1 style="font-size:clamp(36px,5vw,56px);margin:0 0 16px;line-height:1.05;letter-spacing:-.02em;color:#fff;">
+                        {.section collection}{title}{.or}{squarespace.page-title}{.end}
+                      </h1>
+                      <p style="font-size:19px;max-width:700px;margin:0;color:#dfe9ff;">
+                        Licensed waste collection and rubbish removal across Bromley, Kent, and South East London.
+                      </p>
+                      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;">
+                        <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank" style="background:#8dc63f;color:#010080;padding:12px 24px;border-radius:8px;font-weight:900;text-decoration:none;">WhatsApp Quote</a>
+                        <a class="btn" href="tel:+447931935833" style="background:#fff;color:#010080;padding:12px 24px;border-radius:8px;font-weight:900;text-decoration:none;">Call 07931 935 833</a>
+                      </div>
+                    </div>
+                  </section>
 
-        <!-- CMS PAGE CONTENT -->
-        <section class="section" style="padding:60px 0;background:#fff;">
-          <div class="wrap" style="min-height:300px;">
-            {squarespace.main-content}
-            <squarespace:block-field id="page-blocks-{collection.id}" columns="12" />
-          </div>
-        </section>
-      </main>
+                  <!-- CMS PAGE CONTENT -->
+                  <section class="section" style="padding:60px 0;background:#fff;">
+                    <div class="wrap" style="min-height:300px;">
+                      {squarespace.main-content}
+                      <squarespace:block-field id="page-blocks-{collection.id}" columns="12" />
+                    </div>
+                  </section>
+                </main>
+              {.end}
+            {.end}
+          {.end}
+        {.end}
+      {.end}
     {.end}
 
     <!-- GLOBAL ALL JUNK FOOTER -->
