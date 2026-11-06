@@ -1,3 +1,79 @@
-@font-face{font-family:"Google Sans";src:url("/assets/google-sans-flex.woff2") format("woff2");font-style:normal;font-weight:400 900;font-display:swap}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"Google Sans",Arial,sans-serif;color:#010080;background:#fff;line-height:1.55}a{color:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.top{background:#8dc63f;padding:9px 0;text-align:center;font-weight:900}.header{background:#010080;color:#fff}.header .wrap{min-height:84px;display:flex;align-items:center;justify-content:space-between;gap:24px}.logo img{display:block;width:220px;height:auto}.nav{display:flex;align-items:center;gap:18px;font-weight:800}.nav a{text-decoration:none}.nav a:hover{color:#8dc63f}.hero{position:relative;overflow:hidden;background:#071d49;color:#fff}.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,29,73,.86),rgba(7,29,73,.48) 56%,rgba(7,29,73,.12)),url("/assets/all-junk-van-street.webp") center/cover no-repeat}.hero .wrap{position:relative;padding:86px 0 94px}.crumbs{font-size:14px;margin-bottom:22px}.crumbs a{color:#dfe9ff}.kicker{color:#8dc63f;text-transform:uppercase;letter-spacing:.09em;font-size:13px;font-weight:900}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.02;max-width:850px;margin:12px 0 20px;letter-spacing:-.025em}.hero p{font-size:20px;max-width:680px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;min-height:50px;align-items:center;justify-content:center;padding:12px 20px;border-radius:8px;font-weight:900;text-decoration:none}.primary{background:#8dc63f;color:#010080}.secondary{background:#fff;color:#010080}.section{padding:72px 0}.intro{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:start}.section h2{font-size:clamp(34px,4.5vw,54px);line-height:1.05;margin:0 0 18px}.section h3{font-size:26px;margin:0 0 10px}.section p{font-size:18px}.panel{background:#f5f6fc;border-left:6px solid #8dc63f;padding:26px;border-radius:0 12px 12px 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.card{background:#f5f6fc;padding:24px;border-radius:12px}.card p{font-size:16px}.area-note{background:#010080;color:#fff}.area-note .wrap{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}.faq{display:grid;gap:14px}.faq article{border-bottom:1px solid #d9dced;padding:0 0 18px}.cta{background:#8dc63f}.cta .wrap{display:flex;justify-content:space-between;align-items:center;gap:30px}.cta h2{margin:0;max-width:700px}.footer{background:#080867;color:#fff;padding:42px 0}.footer .wrap{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:30px}.footer img{width:220px;height:auto}.footer h3{margin-top:0}.footer ul{list-style:none;padding:0}.footer li{margin:8px 0}.footer a{color:#fff}.small{font-size:14px;color:#dfe9ff}
-@media(max-width:760px){.wrap{width:min(100% - 24px,1120px)}.header .wrap{min-height:68px}.logo img{width:150px}.nav{gap:10px;font-size:14px}.nav a:nth-child(2){display:none}.hero::before{background:linear-gradient(90deg,rgba(7,29,73,.82),rgba(7,29,73,.5) 70%,rgba(7,29,73,.18)),url("/assets/all-junk-van-street-960.webp") 72% center/cover no-repeat}.hero .wrap{padding:62px 0 70px}.hero h1{font-size:42px}.hero p{font-size:18px}.actions,.actions .btn{width:100%}.intro,.area-note .wrap,.footer .wrap{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.section{padding:54px 0}.cta .wrap{display:grid;padding-top:48px;padding-bottom:48px}.cta .btn{width:100%}}
+/* Scoped styles for All Junk Solutions Location Subpages */
+.alljunk-location-page {
+  font-family: var(--font, "Google Sans", Arial, sans-serif);
+  color: var(--charcoal, #010080);
+  line-height: 1.55;
+}
+.alljunk-location-page a { color: inherit; }
+.alljunk-location-page .wrap { width: min(1120px, calc(100% - 40px)); margin: auto; }
+.alljunk-location-page .hero {
+  position: relative;
+  overflow: hidden;
+  background: #071d49;
+  color: #fff;
+}
+.alljunk-location-page .hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(7,29,73,.86), rgba(7,29,73,.48) 56%, rgba(7,29,73,.12)), url("/assets/all-junk-van-street.webp") center/cover no-repeat;
+}
+.alljunk-location-page .hero .wrap { position: relative; padding: 86px 0 94px; }
+.alljunk-location-page .crumbs { font-size: 14px; margin-bottom: 22px; }
+.alljunk-location-page .crumbs a { color: #dfe9ff; text-decoration: none; }
+.alljunk-location-page .crumbs a:hover { text-decoration: underline; }
+.alljunk-location-page .kicker { color: #8dc63f; text-transform: uppercase; letter-spacing: .09em; font-size: 13px; font-weight: 900; }
+.alljunk-location-page .hero h1 {
+  font-size: clamp(42px, 6vw, 72px);
+  line-height: 1.02;
+  max-width: 850px;
+  margin: 12px 0 20px;
+  letter-spacing: -.025em;
+  color: #fff;
+}
+.alljunk-location-page .hero p { font-size: 20px; max-width: 680px; color: #dfe9ff; margin: 0; }
+.alljunk-location-page .actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+.alljunk-location-page .btn {
+  display: inline-flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 900;
+  text-decoration: none;
+}
+.alljunk-location-page .primary { background: #8dc63f; color: #010080; }
+.alljunk-location-page .secondary { background: #fff; color: #010080; }
+.alljunk-location-page .section { padding: 72px 0; background: #fff; }
+.alljunk-location-page .intro { display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: start; }
+.alljunk-location-page .section h2 { font-size: clamp(34px, 4.5vw, 54px); line-height: 1.05; margin: 0 0 18px; color: #010080; }
+.alljunk-location-page .section h3 { font-size: 26px; margin: 0 0 10px; color: #010080; }
+.alljunk-location-page .section p { font-size: 18px; margin: 0 0 16px; }
+.alljunk-location-page .panel { background: #f5f6fc; border-left: 6px solid #8dc63f; padding: 26px; border-radius: 0 12px 12px 0; }
+.alljunk-location-page .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 30px; }
+.alljunk-location-page .card { background: #f5f6fc; padding: 24px; border-radius: 12px; }
+.alljunk-location-page .card p { font-size: 16px; margin: 0; }
+.alljunk-location-page .area-note { background: #010080; color: #fff; padding: 48px 0; }
+.alljunk-location-page .area-note .wrap { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: center; }
+.alljunk-location-page .faq { display: grid; gap: 14px; }
+.alljunk-location-page .faq article { border-bottom: 1px solid #d9dced; padding: 0 0 18px; }
+.alljunk-location-page .cta { background: #8dc63f; padding: 48px 0; }
+.alljunk-location-page .cta .wrap { display: flex; justify-content: space-between; align-items: center; gap: 30px; }
+.alljunk-location-page .cta h2 { margin: 0; max-width: 700px; color: #010080; }
+
+@media (max-width: 760px) {
+  .alljunk-location-page .wrap { width: min(100% - 24px, 1120px); }
+  .alljunk-location-page .hero::before {
+    background: linear-gradient(90deg, rgba(7,29,73,.82), rgba(7,29,73,.5) 70%, rgba(7,29,73,.18)), url("/assets/all-junk-van-street-960.webp") 72% center/cover no-repeat;
+  }
+  .alljunk-location-page .hero .wrap { padding: 62px 0 70px; }
+  .alljunk-location-page .hero h1 { font-size: 42px; }
+  .alljunk-location-page .hero p { font-size: 18px; }
+  .alljunk-location-page .actions, .alljunk-location-page .actions .btn { width: 100%; }
+  .alljunk-location-page .intro, .alljunk-location-page .area-note .wrap { grid-template-columns: 1fr; }
+  .alljunk-location-page .grid { grid-template-columns: 1fr; }
+  .alljunk-location-page .section { padding: 54px 0; }
+  .alljunk-location-page .cta .wrap { display: grid; padding-top: 24px; padding-bottom: 24px; }
+  .alljunk-location-page .cta .btn { width: 100%; }
+}

@@ -1,4 +1,4 @@
-<main>
+<main class="alljunk-location-page">
   <section class="hero">
     <div class="wrap">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / {.section collection}{title}{.end}</nav>

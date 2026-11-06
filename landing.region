@@ -11,8 +11,13 @@
     {@|apply alljunk-schema.block}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} alljunk-landing-body">
-    <div class="top" style="background:#8dc63f;padding:9px 0;text-align:center;font-weight:900;color:#010080;font-size:14px;letter-spacing:0.02em;">
-      Environment Agency registered: CBDU195530 | 100% Sweep-Clean Guarantee
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="trust-strip">
+      <div class="wrap">
+        <span class="trust-primary">Environment Agency registered: CBDU195530</span>
+        <span class="trust-secondary">Bromley, Kent &amp; South East London</span>
+        <span class="trust-secondary">Mon-Fri 7am-6pm, Sat 7am-3pm</span>
+      </div>
     </div>
 
     <!-- SITE HEADER -->
