@@ -8,6 +8,7 @@
     <link rel="preload" href="/assets/all-junk-van-slider.webp" as="image" imagesrcset="/assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" imagesizes="100vw" fetchpriority="high">
     {squarespace-headers}
     <link rel="stylesheet" href="/assets/alljunk.css">
+    {@|apply alljunk-schema.block}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} alljunk-landing-body">
     <div class="top" style="background:#8dc63f;padding:9px 0;text-align:center;font-weight:900;color:#010080;font-size:14px;letter-spacing:0.02em;">
