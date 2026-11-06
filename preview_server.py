@@ -30,7 +30,11 @@ def render_landing():
                 return bf.read()
         return f"<!-- Missing block: {block_name} -->"
 
-    compiled = re.sub(r'\{@\|apply\s+([^}]+)\}', apply_blocks, html)
+    compiled = html
+    for _ in range(5):
+        if "{@|apply" not in compiled:
+            break
+        compiled = re.sub(r'\{@\|apply\s+([^}]+)\}', apply_blocks, compiled)
     compiled = compiled.replace("{squarespace-headers}", '<title>Rubbish Removal Bromley & South East London | All Junk Solutions</title>')
     compiled = compiled.replace("{squarespace-footers}", "")
     compiled = compiled.replace('<squarespace:block-field id="landing-custom-blocks" columns="12" />', "")
