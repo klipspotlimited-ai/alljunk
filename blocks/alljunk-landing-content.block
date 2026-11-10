@@ -12,7 +12,7 @@
   {@|apply alljunk-contact.block}
 
   <!-- SQUARESPACE CMS CUSTOM EDITABLE BLOCKS -->
-  <div class="wrap" style="padding: 20px 0;">
+  <div class="alljunk-home-blocks-wrap" style="display:none;" aria-hidden="true">
     <squarespace:block-field id="alljunk-home-custom-blocks" columns="12" />
   </div>
 

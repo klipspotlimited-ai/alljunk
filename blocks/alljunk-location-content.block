@@ -81,7 +81,7 @@
   </section>
 
   <!-- CMS Block Field for Custom Content -->
-  <div class="wrap" style="padding: 20px 0;">
+  <div class="alljunk-location-blocks-wrap" style="display:none;" aria-hidden="true">
     <squarespace:block-field id="location-blocks-{collection.id}" columns="12" />
     {squarespace.main-content}
   </div>

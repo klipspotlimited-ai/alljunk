@@ -249,6 +249,8 @@
     input:focus,select:focus,textarea:focus{outline:3px solid rgba(136,192,56,.28);border-color:var(--green-dark)}
     .form .full{grid-column:1/-1}
     .form button{width:100%;margin-top:14px}
+    
+    .alljunk-home-blocks-wrap,.alljunk-location-blocks-wrap{display:none}
     .footer{background:#080867;color:#fff;padding:42px 0}
     .footer-grid{display:grid;grid-template-columns:1.05fr .95fr .8fr;gap:28px;align-items:start}
     .footer img{width:220px;height:auto;margin-bottom:16px}
