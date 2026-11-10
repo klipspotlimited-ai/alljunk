@@ -59,11 +59,12 @@
 <div class="extras-panel">
 <h3>Additional charges</h3>
 <div aria-label="Extra item prices" class="extras-grid">
-<div class="extra">Minimum charge <span>£30</span></div>
-<div class="extra">Gas bottles &amp; tyres <span>From £10</span></div>
-<div class="extra">Single mattress <span>£30</span></div>
-<div class="extra">Double or larger mattress <span>£40</span></div>
-<div class="extra">Fridge &amp; freezer <span>From £55</span></div>
+<div class="extra">Minimum Charge <span>From £40</span></div>
+<div class="extra">Gas Bottles <span>£15</span></div>
+<div class="extra">Tyres <span>£15</span></div>
+<div class="extra">Double or Above <span>From £45</span></div>
+<div class="extra">Fridges <span>From £65</span></div>
+<div class="extra">Fridge Freezers <span>From £65</span></div>
 </div>
 </div>
 <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">Send Photos via WhatsApp</a>
