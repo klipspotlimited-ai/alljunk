@@ -21,6 +21,9 @@
     <meta name="twitter:image" content="https://alljunksolutions.co.uk/assets/all-junk-social-preview.jpg">
     <link rel="icon" href="/assets/favicon.ico" sizes="any">
     <link rel="preload" href="/assets/google-sans-flex.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,400..900&amp;display=swap">
     <link rel="preload" href="/assets/all-junk-van-slider.webp" as="image" imagesrcset="/assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" imagesizes="100vw" fetchpriority="high">
     {squarespace-headers}
     <link rel="stylesheet" href="/assets/alljunk.css">
