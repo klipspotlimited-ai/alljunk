@@ -220,13 +220,107 @@
       }, { passive: true });
     }
 
-    // 9. Simple Rubbish Removal Quote Forms (all instances -> Jimboted83@gmail.com + WhatsApp option, zero PII in GA4)
+    // 9. Simple Rubbish Removal Quote Forms (fast native Squarespace API + background FormSubmit to Jimboted83@gmail.com)
+    const getCookie = (name) => {
+      const m = (document.cookie || "").match(new RegExp("(?:^|; )" + name + "=([^;]*)"));
+      return m ? decodeURIComponent(m[1]) : "";
+    };
+
+    const submitToSquarespace = async (data) => {
+      const crumb = getCookie("crumb");
+      const headers = { "Content-Type": "application/json", "Accept": "application/json" };
+      if (crumb) headers["X-CSRF-Token"] = crumb;
+
+      const keyCtrl = typeof AbortController !== "undefined" ? new AbortController() : null;
+      const keyTimer = keyCtrl ? window.setTimeout(() => keyCtrl.abort(), 8000) : null;
+      const keyResp = await fetch("/api/form/FormSubmissionKey", {
+        method: "POST",
+        credentials: "same-origin",
+        headers,
+        signal: keyCtrl ? keyCtrl.signal : undefined
+      });
+      if (keyTimer) clearTimeout(keyTimer);
+      if (!keyResp.ok) throw new Error("Key failed: " + keyResp.status);
+      const keyJson = await keyResp.json();
+      if (!keyJson || !keyJson.key) throw new Error("Missing submission key");
+
+      const fullName = String(data.get("name") || "Website Visitor").trim();
+      const parts = fullName.split(/\s+/);
+      const firstName = parts[0] || "Customer";
+      const lastName = parts.slice(1).join(" ") || "-";
+      const emailVal = String(data.get("email") || "").trim() || "quote-request@alljunksolutions.co.uk";
+      const phoneVal = String(data.get("phone") || "").trim();
+      const postcodeVal = String(data.get("postcode") || "").trim();
+      const wasteVal = String(data.get("waste") || "Rubbish removal").trim();
+      const descVal = String(data.get("description") || "").trim();
+
+      const formPayload = {
+        "name-yui_3_17_2_1_1632732738680_5867": [firstName, lastName],
+        "email-yui_3_17_2_1_1632732738680_5868": emailVal,
+        "text-yui_3_17_2_1_1632732738680_5869": "Quote Request: " + wasteVal + (postcodeVal ? " (" + postcodeVal + ")" : ""),
+        "textarea-yui_3_17_2_1_1632732738680_5870": [
+          "Name: " + fullName,
+          "Phone: " + phoneVal,
+          "Email: " + (data.get("email") || "Not provided"),
+          "Postcode: " + postcodeVal,
+          "Type of rubbish: " + wasteVal,
+          "Page: " + getCleanPagePath(),
+          "Details: " + descVal
+        ].join("\n")
+      };
+
+      const saveCtrl = typeof AbortController !== "undefined" ? new AbortController() : null;
+      const saveTimer = saveCtrl ? window.setTimeout(() => saveCtrl.abort(), 10000) : null;
+      const saveResp = await fetch("/api/form/SaveFormSubmission", {
+        method: "POST",
+        credentials: "same-origin",
+        headers,
+        signal: saveCtrl ? saveCtrl.signal : undefined,
+        body: JSON.stringify({
+          formId: "615186752a80e646d371e101",
+          collectionId: "59db93a1cf81e0c47e124d7e",
+          objectName: "page-59db93a1cf81e0c47e124d7e",
+          form: JSON.stringify(formPayload),
+          key: keyJson.key,
+          pageTitle: document.title || "All Junk Solutions",
+          pagePath: getCleanPagePath(),
+          contentSource: "c",
+          pagePermissionTypeValue: 1,
+          pageId: "59db93a1cf81e0c47e124d7e"
+        })
+      });
+      if (saveTimer) clearTimeout(saveTimer);
+      if (!saveResp.ok) throw new Error("Save failed: " + saveResp.status);
+      return true;
+    };
+
+    const submitToFormSubmit = async (data, timeoutMs) => {
+      const ctrl = typeof AbortController !== "undefined" ? new AbortController() : null;
+      const timer = ctrl ? window.setTimeout(() => ctrl.abort(), timeoutMs || 6000) : null;
+      try {
+        const obj = {};
+        data.forEach((v, k) => { obj[k] = v; });
+        const resp = await fetch("https://formsubmit.co/ajax/Jimboted83@gmail.com", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "Accept": "application/json" },
+          body: JSON.stringify(obj),
+          keepalive: true,
+          signal: ctrl ? ctrl.signal : undefined
+        });
+        if (!resp.ok) throw new Error("FormSubmit HTTP " + resp.status);
+        return true;
+      } finally {
+        if (timer) clearTimeout(timer);
+      }
+    };
+
     document.querySelectorAll("form[data-quote-form], #quoteForm").forEach((form) => {
       if (form.dataset.bound) return;
       form.dataset.bound = "true";
       const submitBtn = form.querySelector("[data-quote-submit], button[type='submit']");
       const waBtn = form.querySelector("[data-quote-whatsapp]");
       const statusBox = form.querySelector("[data-quote-status]");
+      const origLabel = submitBtn ? submitBtn.textContent : "Send Quote Request";
 
       const buildQuoteText = (data) => [
         "Hi All Junk Solutions, I'd like a rubbish removal quote.",
@@ -245,6 +339,22 @@
         statusBox.hidden = false;
       };
 
+      const markRequested = () => {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Quote Requested";
+          submitBtn.classList.add("btn-requested");
+        }
+      };
+
+      // Reset button label if user starts typing a new quote
+      form.addEventListener("input", () => {
+        if (submitBtn && submitBtn.classList.contains("btn-requested")) {
+          submitBtn.classList.remove("btn-requested");
+          submitBtn.textContent = origLabel;
+        }
+      });
+
       if (waBtn) {
         waBtn.addEventListener("click", () => {
           if (typeof form.reportValidity === "function" && !form.reportValidity()) return;
@@ -258,31 +368,42 @@
         event.preventDefault();
         if (typeof form.reportValidity === "function" && !form.reportValidity()) return;
         const data = new FormData(form);
-        const origLabel = submitBtn ? submitBtn.textContent : "Send Quote Request";
         if (submitBtn) {
           submitBtn.disabled = true;
+          submitBtn.classList.remove("btn-requested");
           submitBtn.textContent = "Sending...";
         }
+
+        let delivered = false;
+        // 1. Primary: Fast native Squarespace Form API (same-origin, <1s)
         try {
-          const resp = await fetch("https://formsubmit.co/ajax/Jimboted83@gmail.com", {
-            method: "POST",
-            headers: { "Accept": "application/json" },
-            body: data
-          });
-          if (!resp.ok) throw new Error("FormSubmit error");
-          trackEnquiryIntent("quote_form_email_submit", inferButtonPlacement(form));
+          delivered = await submitToSquarespace(data);
+        } catch (sqErr) {
+          delivered = false;
+        }
+
+        // 2. Also send to FormSubmit (Jimboted83@gmail.com): background if primary succeeded, awaited (6s max) if primary failed
+        if (delivered) {
+          submitToFormSubmit(data, 6000).catch(() => {});
+        } else {
+          try {
+            delivered = await submitToFormSubmit(data, 6000);
+          } catch (fsErr) {
+            delivered = false;
+          }
+        }
+
+        trackEnquiryIntent("quote_form_email_submit", inferButtonPlacement(form));
+
+        if (delivered) {
           form.reset();
-          showStatus("Thanks — your quote request has been sent to James. Need a faster reply? Send photos on WhatsApp to 07931 935 833.", "success");
-        } catch (err) {
-          trackEnquiryIntent("quote_form_email_submit", inferButtonPlacement(form));
+          markRequested();
+          showStatus("Thanks — your quote has been requested! James will get back to you shortly. Need an even faster reply? Send photos on WhatsApp to 07931 935 833.", "success");
+        } else {
           const mailtoUrl = "mailto:Jimboted83@gmail.com?subject=" + encodeURIComponent("Rubbish Removal Quote Request") + "&body=" + encodeURIComponent(buildQuoteText(data));
           window.location.href = mailtoUrl;
+          markRequested();
           showStatus("Opening your email app to send your quote request. You can also send photos on WhatsApp or call 07931 935 833.", "fallback");
-        } finally {
-          if (submitBtn) {
-            submitBtn.disabled = false;
-            submitBtn.textContent = origLabel;
-          }
         }
       });
     });

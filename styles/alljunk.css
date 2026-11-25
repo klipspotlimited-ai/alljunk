@@ -545,3 +545,4 @@
 .quick-quote-points li::before{content:"✓";position:absolute;left:0;top:0;color:var(--green-dark);font-weight:800}
 .quick-quote-form{background:var(--mist);border:1px solid var(--line);box-shadow:none;padding:22px}
 @media (max-width:860px){.quick-quote-card{grid-template-columns:1fr;padding:22px;gap:22px}.quick-quote-form{padding:18px}}
+.btn-requested{background:#1b6e2d!important;color:#fff!important;border-color:#1b6e2d!important;box-shadow:0 8px 20px rgba(27,110,45,.25)!important}
