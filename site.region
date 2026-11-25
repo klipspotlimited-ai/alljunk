@@ -65,7 +65,7 @@
     <link rel="preload" href="/assets/all-junk-van-slider-800.webp" as="image" imagesrcset="/assets/all-junk-van-slider-480.webp 480w, /assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" imagesizes="100vw" fetchpriority="high">
     {.end}
     {squarespace-headers}
-    <link rel="stylesheet" href="/assets/alljunk.css">
+    <link rel="stylesheet" href="/assets/alljunk.css?v=20261125b">
     {@|apply alljunk-schema.block}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} alljunk-site-body">
@@ -148,7 +148,7 @@
     {@|apply alljunk-footer.block}
 
     <!-- INTERACTIVE JAVASCRIPT -->
-    <script src="/assets/alljunk.js" defer></script>
+    <script src="/assets/alljunk.js?v=20261125b" defer></script>
     {squarespace-footers}
   </body>
 </html>
