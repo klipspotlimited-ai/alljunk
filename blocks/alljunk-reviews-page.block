@@ -4,7 +4,7 @@
       <nav class="page-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <span>Customer Reviews</span></nav>
       <div class="reviews-hero-banner">
         <div class="reviews-hero-copy">
-          <img src="/assets/all-junk-logo-transparent.png" alt="All Junk Solutions" class="reviews-brand-logo" width="300" height="169" decoding="async" />
+          <img src="/assets/all-junk-logo-600.webp" srcset="/assets/all-junk-logo-260.webp 260w, /assets/all-junk-logo-600.webp 600w" sizes="(max-width: 767px) 220px, 300px" alt="All Junk Solutions" class="reviews-brand-logo" width="300" height="169" decoding="async" />
           <h1 id="reviews-page-heading">What our customers say</h1>
           <div class="reviews-google-bar" aria-label="Google rating 5.0 out of 5 across 112 Google reviews">
             <span class="g-wordmark" aria-label="Google"><span class="g-w-blue">G</span><span class="g-w-red">o</span><span class="g-w-yellow">o</span><span class="g-w-blue">g</span><span class="g-w-green">l</span><span class="g-w-red">e</span></span>

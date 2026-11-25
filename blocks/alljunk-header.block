@@ -2,7 +2,7 @@
 <div class="wrap">
 <button aria-controls="mainNav" aria-expanded="false" class="menu-toggle" type="button">Menu</button>
 <a aria-label="All Junk Solutions home" class="logo" href="/">
-<img alt="All Junk Solutions" decoding="async" height="1080" src="/assets/all-junk-logo-transparent.png" width="1920"/>
+<img alt="All Junk Solutions" decoding="async" fetchpriority="high" height="146" sizes="(max-width: 767px) 160px, 210px" src="/assets/all-junk-logo-260.webp" srcset="/assets/all-junk-logo-260.webp 260w, /assets/all-junk-logo-520.webp 520w" width="260"/>
 </a>
 <nav aria-label="Main menu" class="nav" id="mainNav">
 <a href="/">Home</a>

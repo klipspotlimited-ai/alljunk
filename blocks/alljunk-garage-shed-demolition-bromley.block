@@ -1,0 +1,76 @@
+<main id="main" class="alljunk-multipage">
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="page-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <span>Garage &amp; Shed Demolition in Bromley</span></nav>
+      <span class="eyebrow">Licensed Waste Carrier CBDU195530 · Bromley, Beckenham &amp; Orpington</span>
+      <h1>Garage and Shed Demolition in <span>Bromley, Beckenham &amp; Orpington</span></h1>
+      <p class="hero-copy">We safely dismantle unwanted timber sheds, detached garages, greenhouses and small garden outbuildings across Bromley, load every piece of debris and leave the concrete base swept clean.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" data-track-placement="hero" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20garage%20or%20shed%20demolition%20quote%20in%20Bromley.%20My%20postcode%20is%3A%20" rel="noopener" target="_blank">Send Structure Photos on WhatsApp</a>
+        <a class="btn btn-outline" data-track-placement="hero" href="tel:+447931935833">Call 07931 935 833</a>
+        <a class="btn btn-outline" href="/pricing">View Load Prices</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="service-deep-dives" id="demolition-details">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-kicker">Demolition &amp; Clearance</div>
+        <h2>What our garage and shed demolition team handles</h2>
+        <p>One local team takes down the structure, clears any leftover contents inside and removes all timber, felt, brick, metal and rubble in a single planned visit.</p>
+      </div>
+      <div class="deep-dive-grid">
+        <article class="deep-dive-card">
+          <div class="section-kicker">Structures We Take Down</div>
+          <h3>Garages, sheds, summerhouses &amp; rip-outs</h3>
+          <ul>
+            <li>Timber garden sheds, tool stores, pergolas, decking and fencing</li>
+            <li>Detached brick, blockwork and sectional garages plus small outbuildings</li>
+            <li>Internal garage/shed clutter cleared alongside the demolition</li>
+            <li>Doors, frames, roofing felt, shelving, fittings and mixed builders waste removed</li>
+          </ul>
+          <p><strong>Important note:</strong> We cannot dismantle or collect asbestos roofing sheets or hazardous chemical waste.</p>
+        </article>
+
+        <article class="deep-dive-card">
+          <div class="section-kicker">Clear Pricing Factors</div>
+          <h3>What affects a demolition quote</h3>
+          <ul>
+            <li><strong>Structure size &amp; build:</strong> Timber shed vs. brick/blockwork garage and whether it is empty or full of items</li>
+            <li><strong>Waste volume &amp; weight:</strong> Standard load rates (£125 quarter · £250 half · £350 three-quarter · £425 full load) plus demolition labour</li>
+            <li><strong>Specialist items inside:</strong> Tyres £15 each · Gas bottles £15 · Fridges/freezers from £65 · Single mattress £30</li>
+            <li><strong>No hidden extras:</strong> Loading, sweep-up, parking and congestion charges included in your agreed price</li>
+          </ul>
+          <a class="btn btn-outline" href="/pricing">See Load &amp; Item Prices</a>
+        </article>
+
+        <article class="deep-dive-card">
+          <div class="section-kicker">Site Access Checklist</div>
+          <h3>What access is needed</h3>
+          <ul>
+            <li>Clear route from the shed or garage to the nearest van parking spot (side gate, alley or driveway)</li>
+            <li>Please ensure any mains electricity or water supply to the outbuilding is disconnected before work starts</li>
+            <li>Tell James if there are neighbours’ fences, greenhouses or overhanging trees touching the structure</li>
+            <li>Covering Bromley, Beckenham, Orpington, Chislehurst, West Wickham, Kent and South East London</li>
+          </ul>
+        </article>
+
+        <article class="deep-dive-card">
+          <div class="section-kicker">Fast Photo Quote</div>
+          <h3>Which photos to send James on WhatsApp</h3>
+          <ul>
+            <li>Front, side and roof photos of the shed or garage so we can see its size and construction</li>
+            <li>One photo inside if there are tools, rubble or clutter to clear at the same time</li>
+            <li>A photo of the side gate or access route to the road, plus your postcode</li>
+          </ul>
+          <a class="btn btn-primary" data-track-placement="page_body" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20Bromley%20shed%20or%20garage%20demolition%20quote.%20My%20postcode%20is%3A%20" rel="noopener" target="_blank">WhatsApp Photos to 07931 935 833</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  {@|apply alljunk-demolition.block}
+  {@|apply alljunk-reviews.block}
+  {@|apply alljunk-contact.block}
+</main>

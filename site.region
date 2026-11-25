@@ -7,65 +7,43 @@
     {.if collection.homepage}
       <title>Rubbish Removal Bromley, Kent &amp; SE London | All Junk Solutions</title>
       <meta name="description" content="Licensed rubbish removal, house clearances and shed demolition in Bromley, Kent &amp; SE London. Send photos on WhatsApp to 07931 935 833 for a fast quote.">
-      <link rel="canonical" href="https://www.alljunksolutions.co.uk/">
-      <meta property="og:title" content="Rubbish Removal Bromley, Kent &amp; SE London | All Junk Solutions">
-      <meta property="og:description" content="Licensed rubbish removal, house clearances and shed demolition in Bromley, Kent &amp; SE London. Send photos on WhatsApp to 07931 935 833 for a fast quote.">
-      <meta property="og:url" content="https://www.alljunksolutions.co.uk/">
     {.or}
       {.equal? collection.urlId "services"}
         <title>Waste &amp; Rubbish Removal Services Bromley | All Junk Solutions</title>
         <meta name="description" content="House clearances, garage &amp; shed demolition, furniture disposal, garden waste and builders waste across Bromley, Kent &amp; SE London. Licensed CBDU195530.">
-        <link rel="canonical" href="https://www.alljunksolutions.co.uk/services">
-        <meta property="og:title" content="Waste &amp; Rubbish Removal Services Bromley | All Junk Solutions">
-        <meta property="og:description" content="House clearances, garage &amp; shed demolition, furniture disposal, garden waste and builders waste across Bromley, Kent &amp; SE London.">
-        <meta property="og:url" content="https://www.alljunksolutions.co.uk/services">
       {.or}
         {.equal? collection.urlId "pricing"}
           <title>Rubbish Removal Prices Bromley &amp; Kent | All Junk Solutions</title>
           <meta name="description" content="Clear rubbish removal load prices from £125 to £425 (minimum charge from £40). Loading, sweep-up, parking and congestion included. Fast WhatsApp quotes.">
-          <link rel="canonical" href="https://www.alljunksolutions.co.uk/pricing">
-          <meta property="og:title" content="Rubbish Removal Prices Bromley &amp; Kent | All Junk Solutions">
-          <meta property="og:description" content="Clear rubbish removal load prices from £125 to £425 (minimum charge from £40). Loading, sweep-up, parking and congestion included.">
-          <meta property="og:url" content="https://www.alljunksolutions.co.uk/pricing">
         {.or}
           {.equal? collection.urlId "testimonials"}
             <title>Customer Reviews | 5.0★ Rubbish Removal Bromley | All Junk</title>
             <meta name="description" content="Read 90+ 5.0-star customer reviews for All Junk Solutions across Bromley, Kent and South East London. Fast arrivals, fair photo quotes and tidy clearances.">
-            <link rel="canonical" href="https://www.alljunksolutions.co.uk/testimonials">
-            <meta property="og:title" content="Customer Reviews | 5.0★ Rubbish Removal Bromley | All Junk">
-            <meta property="og:description" content="Read 90+ 5.0-star customer reviews for All Junk Solutions across Bromley, Kent and South East London.">
-            <meta property="og:url" content="https://www.alljunksolutions.co.uk/testimonials">
           {.or}
             {.equal? collection.urlId "media"}
               <title>Before &amp; After Clearances &amp; Shed Demolition | All Junk</title>
               <meta name="description" content="See real before-and-after house clearances, garden waste collections and garage &amp; shed demolitions across Bromley, Kent and South East London.">
-              <link rel="canonical" href="https://www.alljunksolutions.co.uk/media">
-              <meta property="og:title" content="Before &amp; After Clearances &amp; Shed Demolition | All Junk">
-              <meta property="og:description" content="See real before-and-after house clearances, garden waste collections and garage &amp; shed demolitions across Bromley, Kent and South East London.">
-              <meta property="og:url" content="https://www.alljunksolutions.co.uk/media">
             {.or}
               {.equal? collection.urlId "about-us"}
                 <title>Areas Covered: Bromley, Kent &amp; SE London | All Junk Solutions</title>
                 <meta name="description" content="Bromley-based licensed waste carrier (CBDU195530) serving Bromley, Beckenham, Orpington, Chislehurst, Kent and South East London since 2017.">
-                <link rel="canonical" href="https://www.alljunksolutions.co.uk/about-us">
-                <meta property="og:title" content="Areas Covered: Bromley, Kent &amp; SE London | All Junk Solutions">
-                <meta property="og:description" content="Bromley-based licensed waste carrier (CBDU195530) serving Bromley, Beckenham, Orpington, Kent and South East London.">
-                <meta property="og:url" content="https://www.alljunksolutions.co.uk/about-us">
               {.or}
                 {.equal? collection.urlId "contact"}
                   <title>Contact &amp; Fast WhatsApp Quote | All Junk Solutions Bromley</title>
                   <meta name="description" content="Send photos of your rubbish and your postcode on WhatsApp to 07931 935 833 for a fast, fixed-price clearance quote across Bromley, Kent &amp; SE London.">
-                  <link rel="canonical" href="https://www.alljunksolutions.co.uk/contact">
-                  <meta property="og:title" content="Contact &amp; Fast WhatsApp Quote | All Junk Solutions Bromley">
-                  <meta property="og:description" content="Send photos of your rubbish and your postcode on WhatsApp to 07931 935 833 for a fast clearance quote.">
-                  <meta property="og:url" content="https://www.alljunksolutions.co.uk/contact">
                 {.or}
-                  <title>Rubbish Removal Bromley, Kent &amp; SE London | All Junk Solutions</title>
-                  <meta name="description" content="Licensed rubbish removal, house clearances and shed demolition in Bromley, Kent &amp; SE London. Send photos on WhatsApp to 07931 935 833 for a fast quote.">
-                  <link rel="canonical" href="https://www.alljunksolutions.co.uk/">
-                  <meta property="og:title" content="Rubbish Removal Bromley, Kent &amp; SE London | All Junk Solutions">
-                  <meta property="og:description" content="Licensed rubbish removal, house clearances and shed demolition in Bromley, Kent &amp; SE London. Send photos on WhatsApp to 07931 935 833 for a fast quote.">
-                  <meta property="og:url" content="https://www.alljunksolutions.co.uk/">
+                  {.equal? collection.urlId "house-clearance-bromley"}
+                    <title>House Clearance in Bromley | Licensed Team | All Junk Solutions</title>
+                    <meta name="description" content="Licensed house, loft, garage and probate clearances in Bromley, Beckenham and Orpington. Clear load prices, £30 single mattress disposal, fast WhatsApp photo quotes.">
+                  {.or}
+                    {.equal? collection.urlId "garage-shed-demolition-bromley"}
+                      <title>Garage &amp; Shed Demolition in Bromley | All Junk Solutions</title>
+                      <meta name="description" content="Safe garage, shed and small outbuilding demolition in Bromley, Beckenham and Orpington. Structure taken down, waste loaded and cleared. Send photos on WhatsApp.">
+                    {.or}
+                      <title>Rubbish Removal Bromley, Kent &amp; SE London | All Junk Solutions</title>
+                      <meta name="description" content="Licensed rubbish removal, house clearances and shed demolition in Bromley, Kent &amp; SE London. Send photos on WhatsApp to 07931 935 833 for a fast quote.">
+                    {.end}
+                  {.end}
                 {.end}
               {.end}
             {.end}
@@ -73,8 +51,6 @@
         {.end}
       {.end}
     {.end}
-    <meta property="og:site_name" content="All Junk Solutions">
-    <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.alljunksolutions.co.uk/assets/all-junk-social-preview.jpg">
     <meta property="og:image:secure_url" content="https://www.alljunksolutions.co.uk/assets/all-junk-social-preview.jpg">
     <meta property="og:image:type" content="image/jpeg">
@@ -82,15 +58,12 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="All Junk Solutions - Rubbish Removal Made Easy">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Rubbish Removal Bromley, Kent &amp; SE London | All Junk Solutions">
-    <meta name="twitter:description" content="Licensed rubbish removal, house clearances and shed demolition in Bromley, Kent &amp; SE London. Send photos on WhatsApp to 07931 935 833 for a fast quote.">
     <meta name="twitter:image" content="https://www.alljunksolutions.co.uk/assets/all-junk-social-preview.jpg">
     <link rel="icon" href="/assets/favicon.ico" sizes="any">
     <link rel="preload" href="/assets/google-sans-flex.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,400..900&amp;display=swap">
-    <link rel="preload" href="/assets/all-junk-van-slider.webp" as="image" imagesrcset="/assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" imagesizes="100vw" fetchpriority="high">
+    {.if collection.homepage}
+    <link rel="preload" href="/assets/all-junk-van-slider-800.webp" as="image" imagesrcset="/assets/all-junk-van-slider-480.webp 480w, /assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" imagesizes="100vw" fetchpriority="high">
+    {.end}
     {squarespace-headers}
     <link rel="stylesheet" href="/assets/alljunk.css">
     {@|apply alljunk-schema.block}
@@ -139,16 +112,24 @@
                       {.equal? collection.urlId "contact"}
                         {@|apply alljunk-contact-page.block}
                       {.or}
-                        {.equal? collection.urlId "rubbish-removal-bromley"}
-                          {@|apply alljunk-about-page.block}
+                        {.equal? collection.urlId "house-clearance-bromley"}
+                          {@|apply alljunk-house-clearance-bromley.block}
                         {.or}
-                          {.equal? collection.urlId "rubbish-removal-kent"}
-                            {@|apply alljunk-about-page.block}
+                          {.equal? collection.urlId "garage-shed-demolition-bromley"}
+                            {@|apply alljunk-garage-shed-demolition-bromley.block}
                           {.or}
-                            {.equal? collection.urlId "rubbish-removal-south-east-london"}
+                            {.equal? collection.urlId "rubbish-removal-bromley"}
                               {@|apply alljunk-about-page.block}
                             {.or}
-                              {squarespace.main-content}
+                              {.equal? collection.urlId "rubbish-removal-kent"}
+                                {@|apply alljunk-about-page.block}
+                              {.or}
+                                {.equal? collection.urlId "rubbish-removal-south-east-london"}
+                                  {@|apply alljunk-about-page.block}
+                                {.or}
+                                  {squarespace.main-content}
+                                {.end}
+                              {.end}
                             {.end}
                           {.end}
                         {.end}

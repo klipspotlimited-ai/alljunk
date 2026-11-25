@@ -1,11 +1,11 @@
 <section aria-label="All Junk Solutions rubbish removal" class="hero" data-slider="">
-<video aria-hidden="true" autoplay="" class="mobile-hero-video" loop="" muted="" playsinline="" poster="/assets/all-junk-van-slider-800.webp" preload="none" tabindex="-1">
+<video aria-hidden="true" autoplay="" class="mobile-hero-video" loop="" muted="" playsinline="" poster="/assets/all-junk-van-slider-480.webp" preload="none" tabindex="-1">
 <source data-src="/assets/all-junk-fleet-mobile.mp4" type="video/mp4"/>
 </video>
 <div class="hero-bg-slider">
 <div class="hero-bg-track">
 <figure class="hero-bg-slide">
-<img alt="All Junk Solutions branded collection vehicle and team member" decoding="async" fetchpriority="high" height="1426" loading="eager" sizes="100vw" src="/assets/all-junk-van-slider.webp" srcset="/assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" width="1320"/>
+<img alt="All Junk Solutions branded collection vehicle and team member" decoding="async" fetchpriority="high" height="1426" loading="eager" sizes="100vw" src="/assets/all-junk-van-slider-800.webp" srcset="/assets/all-junk-van-slider-480.webp 480w, /assets/all-junk-van-slider-800.webp 800w, /assets/all-junk-van-slider.webp 1320w" width="1320"/>
 </figure>
 <figure class="hero-bg-slide">
 <img alt="All Junk Solutions branded rubbish removal van on a residential street" decoding="async" height="900" loading="lazy" sizes="100vw" src="/assets/all-junk-van-street.webp" srcset="/assets/all-junk-van-street-960.webp 960w, /assets/all-junk-van-street.webp 1600w" width="1600"/>

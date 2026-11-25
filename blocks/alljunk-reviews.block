@@ -2,7 +2,7 @@
   <div class="wrap">
     <div class="reviews-hero-banner">
       <div class="reviews-hero-copy">
-        <img src="/assets/all-junk-logo-transparent.png" alt="All Junk Solutions" class="reviews-brand-logo" width="320" height="180" loading="lazy" decoding="async" />
+        <img src="/assets/all-junk-logo-600.webp" srcset="/assets/all-junk-logo-260.webp 260w, /assets/all-junk-logo-600.webp 600w" sizes="(max-width: 767px) 220px, 320px" alt="All Junk Solutions" class="reviews-brand-logo" width="320" height="180" loading="lazy" decoding="async" />
         <h2 id="reviews-heading">What our customers say</h2>
         <div class="reviews-google-bar" aria-label="Google rating 5.0 out of 5 across 112 Google reviews">
           <span class="g-wordmark" aria-label="Google"><span class="g-w-blue">G</span><span class="g-w-red">o</span><span class="g-w-yellow">o</span><span class="g-w-blue">g</span><span class="g-w-green">l</span><span class="g-w-red">e</span></span>
