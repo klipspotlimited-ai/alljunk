@@ -527,3 +527,10 @@
       .reviews-bottom-cta{padding:22px 20px}
       .reviews-bottom-actions,.reviews-bottom-actions .btn,.deep-dive-card .btn,.area-hub-card .btn{width:100%}
     }
+
+/* Simple Rubbish Removal Quote Form Actions & Status */
+.form-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.form-actions .btn{flex:1 1 200px}
+.form-status{margin-top:14px;padding:12px 14px;border-radius:10px;font-size:14px;font-weight:600;line-height:1.45}
+.form-status.success{background:#eaf7d8;color:#1b3b07;border:1px solid #9bd14c}
+.form-status.fallback{background:#fff7e0;color:#4a3500;border:1px solid #e6c66a}

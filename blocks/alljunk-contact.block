@@ -2,22 +2,31 @@
 <div class="wrap cta-grid">
 <div>
 <span class="eyebrow">Ready for a quote?</span>
-<h2>Send the photos. Get the price. Clear the space.</h2>
-<p>Use WhatsApp for the fastest route, or fill in the short form and it will open WhatsApp with your details ready to send.</p>
+<h2>Get a fast rubbish removal quote.</h2>
+<p>Fill in the quick quote form and it will be emailed straight to James at <a href="mailto:Jimboted83@gmail.com" style="color:var(--green);font-weight:700;text-decoration:underline;">Jimboted83@gmail.com</a>, or message us on WhatsApp with photos for the fastest reply.</p>
 <div class="hero-actions">
 <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">WhatsApp All Junk</a>
 <a class="btn btn-outline" href="tel:+447931935833">Call 07931 935 833</a>
 </div>
 </div>
-<form class="form" id="quoteForm">
+<form action="https://formsubmit.co/Jimboted83@gmail.com" class="form" id="quoteForm" method="POST">
+<input name="_subject" type="hidden" value="New Rubbish Removal Quote Request — All Junk Solutions"/>
+<input name="_template" type="hidden" value="table"/>
+<input name="_captcha" type="hidden" value="false"/>
+<input autocomplete="off" name="_honey" style="display:none" tabindex="-1" type="text"/>
 <div class="form-grid">
-<label>Name<input autocomplete="name" name="name" required=""/></label>
-<label>Phone number<input autocomplete="tel" name="phone" required="" type="tel"/></label>
-<label>Postcode<input autocomplete="postal-code" name="postcode" required=""/></label>
-<label>Type of waste<select name="waste" required=""><option value="">Choose one</option><option>Domestic rubbish</option><option>House or garage clearance</option><option>Furniture removal</option><option>Garden waste</option><option>Electronic waste</option><option>White goods</option><option>Builders waste</option><option>Commercial rubbish</option><option>Garage or shed demolition</option><option>Other</option></select></label>
-<label class="full">Short description<textarea name="description" required=""></textarea></label>
+<label>Name<input autocomplete="name" name="name" placeholder="Your name" required=""/></label>
+<label>Phone number<input autocomplete="tel" name="phone" placeholder="07xxx xxxxxx" required="" type="tel"/></label>
+<label>Email address<input autocomplete="email" name="email" placeholder="you@example.com" type="email"/></label>
+<label>Postcode<input autocomplete="postal-code" name="postcode" placeholder="e.g. BR1 1AA" required=""/></label>
+<label class="full">Type of rubbish<select name="waste" required=""><option value="">Choose one</option><option>Domestic rubbish</option><option>House or garage clearance</option><option>Furniture or mattress removal</option><option>Garden waste</option><option>White goods / fridge</option><option>Builders waste</option><option>Garage or shed demolition</option><option>Commercial / office clearance</option><option>Other</option></select></label>
+<label class="full">Short description<textarea name="description" placeholder="Briefly tell us what needs clearing and any access notes (stairs, driveway, parking)..." required=""></textarea></label>
 </div>
-<button class="btn btn-primary" type="submit">Open WhatsApp Message</button>
+<div class="form-actions">
+<button class="btn btn-primary" id="quoteSubmitBtn" type="submit">Send Quote Request</button>
+<button class="btn btn-outline" id="quoteWhatsAppBtn" type="button">Send via WhatsApp Instead</button>
+</div>
+<div aria-live="polite" class="form-status" hidden="" id="quoteFormStatus" role="status"></div>
 </form>
 </div>
 </section>

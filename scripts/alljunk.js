@@ -220,24 +220,70 @@
       }, { passive: true });
     }
 
-    // 9. Instant Quote Form -> WhatsApp Generator (fires quote_form_whatsapp_open once, zero PII)
+    // 9. Simple Rubbish Removal Quote Form (Email to Jimboted83@gmail.com + WhatsApp Option, zero PII in GA4)
     const form = document.getElementById("quoteForm");
     if (form && !form.dataset.bound) {
       form.dataset.bound = "true";
-      form.addEventListener("submit", (event) => {
+      const submitBtn = document.getElementById("quoteSubmitBtn");
+      const waBtn = document.getElementById("quoteWhatsAppBtn");
+      const statusBox = document.getElementById("quoteFormStatus");
+
+      const buildQuoteText = (data) => [
+        "Hi All Junk Solutions, I'd like a rubbish removal quote.",
+        "Name: " + (data.get("name") || ""),
+        "Phone: " + (data.get("phone") || ""),
+        "Email: " + (data.get("email") || "Not provided"),
+        "Postcode: " + (data.get("postcode") || ""),
+        "Type of rubbish: " + (data.get("waste") || ""),
+        "Details: " + (data.get("description") || "")
+      ].join("\n");
+
+      const showStatus = (msg, type) => {
+        if (!statusBox) return;
+        statusBox.textContent = msg;
+        statusBox.className = "form-status " + (type || "success");
+        statusBox.hidden = false;
+      };
+
+      if (waBtn) {
+        waBtn.addEventListener("click", () => {
+          if (typeof form.reportValidity === "function" && !form.reportValidity()) return;
+          const data = new FormData(form);
+          trackEnquiryIntent("quote_form_whatsapp_open", inferButtonPlacement(form));
+          window.open("https://wa.me/447931935833?text=" + encodeURIComponent(buildQuoteText(data)), "_blank", "noopener");
+        });
+      }
+
+      form.addEventListener("submit", async (event) => {
         event.preventDefault();
         if (typeof form.reportValidity === "function" && !form.reportValidity()) return;
         const data = new FormData(form);
-        const message = [
-          "Hi All Junk Solutions, I'd like a quote.",
-          "Name: " + (data.get("name") || ""),
-          "Phone: " + (data.get("phone") || ""),
-          "Postcode: " + (data.get("postcode") || ""),
-          "Type of waste: " + (data.get("waste") || ""),
-          "Details: " + (data.get("description") || "")
-        ].join("\n");
-        trackEnquiryIntent("quote_form_whatsapp_open", inferButtonPlacement(form));
-        window.open("https://wa.me/447931935833?text=" + encodeURIComponent(message), "_blank", "noopener");
+        const origLabel = submitBtn ? submitBtn.textContent : "Send Quote Request";
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.textContent = "Sending...";
+        }
+        try {
+          const resp = await fetch("https://formsubmit.co/ajax/Jimboted83@gmail.com", {
+            method: "POST",
+            headers: { "Accept": "application/json" },
+            body: data
+          });
+          if (!resp.ok) throw new Error("FormSubmit error");
+          trackEnquiryIntent("quote_form_email_submit", inferButtonPlacement(form));
+          form.reset();
+          showStatus("Thanks — your quote request has been sent to James (Jimboted83@gmail.com). Need a faster reply? Send photos on WhatsApp to 07931 935 833.", "success");
+        } catch (err) {
+          trackEnquiryIntent("quote_form_email_submit", inferButtonPlacement(form));
+          const mailtoUrl = "mailto:Jimboted83@gmail.com?subject=" + encodeURIComponent("Rubbish Removal Quote Request") + "&body=" + encodeURIComponent(buildQuoteText(data));
+          window.location.href = mailtoUrl;
+          showStatus("Opening your email app to send your quote request to Jimboted83@gmail.com. You can also tap 'Send via WhatsApp Instead' or call 07931 935 833.", "fallback");
+        } finally {
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.textContent = origLabel;
+          }
+        }
       });
     }
   }
