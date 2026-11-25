@@ -1,0 +1,34 @@
+<section class="quick-quote-section" id="quick-quote" aria-labelledby="quick-quote-heading">
+  <div class="wrap">
+    <div class="quick-quote-card">
+      <div class="quick-quote-copy">
+        <div class="section-kicker">Fast Free Estimate</div>
+        <h2 id="quick-quote-heading">Request a quick rubbish removal quote</h2>
+        <p>Not sure which load size you need? Tell us your postcode and what needs clearing for a clear, no-obligation price — or send photos straight to WhatsApp on <a href="tel:+447931935833" style="font-weight:700;text-decoration:underline;">07931 935 833</a>.</p>
+        <ul class="quick-quote-points">
+          <li>Same-day &amp; next-day slots across Bromley, Kent &amp; SE London</li>
+          <li>Loading, sweep-up, parking &amp; congestion included</li>
+          <li>Licensed upper-tier waste carrier (CBDU195530)</li>
+        </ul>
+      </div>
+      <form action="https://formsubmit.co/Jimboted83@gmail.com" class="form quick-quote-form" data-quote-form="" data-track-placement="homepage_quick_quote" method="POST">
+        <input name="_subject" type="hidden" value="Quick Rubbish Removal Quote Request — All Junk Solutions"/>
+        <input name="_template" type="hidden" value="table"/>
+        <input name="_captcha" type="hidden" value="false"/>
+        <input autocomplete="off" name="_honey" style="display:none" tabindex="-1" type="text"/>
+        <div class="form-grid">
+          <label>Name<input autocomplete="name" name="name" placeholder="Your name" required=""/></label>
+          <label>Phone number<input autocomplete="tel" name="phone" placeholder="07xxx xxxxxx" required="" type="tel"/></label>
+          <label>Postcode<input autocomplete="postal-code" name="postcode" placeholder="e.g. BR1 1AA" required=""/></label>
+          <label>Type of rubbish<select name="waste" required=""><option value="">Choose one</option><option>Domestic rubbish</option><option>House or garage clearance</option><option>Furniture or mattress removal</option><option>Garden waste</option><option>White goods / fridge</option><option>Builders waste</option><option>Garage or shed demolition</option><option>Commercial / office clearance</option><option>Other</option></select></label>
+          <label class="full">What needs clearing?<textarea name="description" placeholder="e.g. half a van of garden waste, old sofa and single mattress in BR2..." required="" rows="2"></textarea></label>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-primary" data-quote-submit="" type="submit">Get My Free Quote</button>
+          <button class="btn btn-outline" data-quote-whatsapp="" type="button">Send on WhatsApp</button>
+        </div>
+        <div aria-live="polite" class="form-status" data-quote-status="" hidden="" role="status"></div>
+      </form>
+    </div>
+  </div>
+</section>

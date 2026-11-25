@@ -3,13 +3,13 @@
 <div>
 <span class="eyebrow">Ready for a quote?</span>
 <h2>Get a fast rubbish removal quote.</h2>
-<p>Fill in the quick quote form and it will be emailed straight to James at <a href="mailto:Jimboted83@gmail.com" style="color:var(--green);font-weight:700;text-decoration:underline;">Jimboted83@gmail.com</a>, or message us on WhatsApp with photos for the fastest reply.</p>
+<p>Fill in the quick quote form and we’ll get right back to you with a clear price, or message us on WhatsApp with photos for the fastest reply. General enquiries: <a href="mailto:info@alljunksolutions.co.uk" style="color:var(--green);font-weight:700;text-decoration:underline;">info@alljunksolutions.co.uk</a>.</p>
 <div class="hero-actions">
 <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">WhatsApp All Junk</a>
 <a class="btn btn-outline" href="tel:+447931935833">Call 07931 935 833</a>
 </div>
 </div>
-<form action="https://formsubmit.co/Jimboted83@gmail.com" class="form" id="quoteForm" method="POST">
+<form action="https://formsubmit.co/Jimboted83@gmail.com" class="form" data-quote-form="" data-track-placement="contact_quote_form" id="quoteForm" method="POST">
 <input name="_subject" type="hidden" value="New Rubbish Removal Quote Request — All Junk Solutions"/>
 <input name="_template" type="hidden" value="table"/>
 <input name="_captcha" type="hidden" value="false"/>
@@ -23,10 +23,10 @@
 <label class="full">Short description<textarea name="description" placeholder="Briefly tell us what needs clearing and any access notes (stairs, driveway, parking)..." required=""></textarea></label>
 </div>
 <div class="form-actions">
-<button class="btn btn-primary" id="quoteSubmitBtn" type="submit">Send Quote Request</button>
-<button class="btn btn-outline" id="quoteWhatsAppBtn" type="button">Send via WhatsApp Instead</button>
+<button class="btn btn-primary" data-quote-submit="" type="submit">Send Quote Request</button>
+<button class="btn btn-outline" data-quote-whatsapp="" type="button">Send via WhatsApp Instead</button>
 </div>
-<div aria-live="polite" class="form-status" hidden="" id="quoteFormStatus" role="status"></div>
+<div aria-live="polite" class="form-status" data-quote-status="" hidden="" role="status"></div>
 </form>
 </div>
 </section>

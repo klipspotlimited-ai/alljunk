@@ -220,13 +220,13 @@
       }, { passive: true });
     }
 
-    // 9. Simple Rubbish Removal Quote Form (Email to Jimboted83@gmail.com + WhatsApp Option, zero PII in GA4)
-    const form = document.getElementById("quoteForm");
-    if (form && !form.dataset.bound) {
+    // 9. Simple Rubbish Removal Quote Forms (all instances -> Jimboted83@gmail.com + WhatsApp option, zero PII in GA4)
+    document.querySelectorAll("form[data-quote-form], #quoteForm").forEach((form) => {
+      if (form.dataset.bound) return;
       form.dataset.bound = "true";
-      const submitBtn = document.getElementById("quoteSubmitBtn");
-      const waBtn = document.getElementById("quoteWhatsAppBtn");
-      const statusBox = document.getElementById("quoteFormStatus");
+      const submitBtn = form.querySelector("[data-quote-submit], button[type='submit']");
+      const waBtn = form.querySelector("[data-quote-whatsapp]");
+      const statusBox = form.querySelector("[data-quote-status]");
 
       const buildQuoteText = (data) => [
         "Hi All Junk Solutions, I'd like a rubbish removal quote.",
@@ -272,12 +272,12 @@
           if (!resp.ok) throw new Error("FormSubmit error");
           trackEnquiryIntent("quote_form_email_submit", inferButtonPlacement(form));
           form.reset();
-          showStatus("Thanks — your quote request has been sent to James (Jimboted83@gmail.com). Need a faster reply? Send photos on WhatsApp to 07931 935 833.", "success");
+          showStatus("Thanks — your quote request has been sent to James. Need a faster reply? Send photos on WhatsApp to 07931 935 833.", "success");
         } catch (err) {
           trackEnquiryIntent("quote_form_email_submit", inferButtonPlacement(form));
           const mailtoUrl = "mailto:Jimboted83@gmail.com?subject=" + encodeURIComponent("Rubbish Removal Quote Request") + "&body=" + encodeURIComponent(buildQuoteText(data));
           window.location.href = mailtoUrl;
-          showStatus("Opening your email app to send your quote request to Jimboted83@gmail.com. You can also tap 'Send via WhatsApp Instead' or call 07931 935 833.", "fallback");
+          showStatus("Opening your email app to send your quote request. You can also send photos on WhatsApp or call 07931 935 833.", "fallback");
         } finally {
           if (submitBtn) {
             submitBtn.disabled = false;
@@ -285,7 +285,7 @@
           }
         }
       });
-    }
+    });
   }
 
   if (document.readyState === "loading") {

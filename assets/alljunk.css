@@ -534,3 +534,14 @@
 .form-status{margin-top:14px;padding:12px 14px;border-radius:10px;font-size:14px;font-weight:600;line-height:1.45}
 .form-status.success{background:#eaf7d8;color:#1b3b07;border:1px solid #9bd14c}
 .form-status.fallback{background:#fff7e0;color:#4a3500;border:1px solid #e6c66a}
+
+/* Homepage Mid-Page Quick Quote Section */
+.quick-quote-section{padding:56px 0;background:var(--mist);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.quick-quote-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:32px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:32px;box-shadow:var(--shadow-sm)}
+.quick-quote-copy h2{font-size:clamp(24px,2.8vw,34px);line-height:1.15;margin:8px 0 12px;color:var(--charcoal)}
+.quick-quote-copy p{color:var(--muted);font-size:15.5px;margin-bottom:16px}
+.quick-quote-points{list-style:none;display:grid;gap:8px;color:var(--charcoal);font-size:14.5px;font-weight:600}
+.quick-quote-points li{position:relative;padding-left:22px}
+.quick-quote-points li::before{content:"✓";position:absolute;left:0;top:0;color:var(--green-dark);font-weight:800}
+.quick-quote-form{background:var(--mist);border:1px solid var(--line);box-shadow:none;padding:22px}
+@media (max-width:860px){.quick-quote-card{grid-template-columns:1fr;padding:22px;gap:22px}.quick-quote-form{padding:18px}}

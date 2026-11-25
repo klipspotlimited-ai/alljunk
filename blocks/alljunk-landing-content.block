@@ -3,6 +3,7 @@
   {@|apply alljunk-why-choose.block}
   {@|apply alljunk-results.block}
   {@|apply alljunk-pricing.block}
+  {@|apply alljunk-quick-quote.block}
   {@|apply alljunk-services.block}
   {@|apply alljunk-demolition.block}
   {@|apply alljunk-process.block}
