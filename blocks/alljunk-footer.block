@@ -1,32 +1,43 @@
 <footer class="footer">
 <div class="wrap footer-grid">
 <div>
-<img alt="All Junk Solutions" decoding="async" height="1080" loading="lazy" src="/assets/all-junk-logo-transparent.png" width="1920"/>
-<p>Junk and waste collection across Bromley, Kent and South East London. Domestic, commercial and trade clearances handled by a licensed waste carrier.</p>
+<a href="/" aria-label="All Junk Solutions Home"><img alt="All Junk Solutions" decoding="async" height="1080" loading="lazy" src="/assets/all-junk-logo-transparent.png" width="1920"/></a>
+<p>Licensed junk and waste collection across Bromley, Kent and South East London. Domestic, commercial and trade clearances handled by an Environment Agency registered upper-tier waste carrier.</p>
 <div class="social">
 <a aria-label="Follow All Junk Solutions on Facebook" href="https://www.facebook.com/alljunksolutions/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" class="social-icon social-icon-facebook" viewbox="0 0 24 24"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v2H6v4h3v7h4v-7h3l1-4h-4V9c0-.7.3-1 1-1Z"></path></svg></a>
 <a aria-label="Follow All Junk Solutions on Instagram" href="https://www.instagram.com/alljunksolutions?igsh=YXZsOXh1OTJseWp1" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" class="social-icon social-icon-instagram" viewbox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm10.5 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"></path></svg></a>
+<a aria-label="All Junk Solutions on Google Maps" href="https://maps.app.goo.gl/czcm2XFHp3UNhPme9" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" class="social-icon" viewbox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"></path></svg></a>
 </div>
 </div>
 <div>
-<h3>Contact</h3>
+<h3>Pages &amp; Services</h3>
 <ul>
-<li><a href="tel:+447931935833">07931 935 833</a></li>
-<li><a href="mailto:info@alljunksolutions.co.uk">info@alljunksolutions.co.uk</a></li>
-<li><a href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" rel="noopener" target="_blank">WhatsApp a quote request</a></li>
+<li><a href="/">Home</a></li>
+<li><a href="/services">Waste Removal Services</a></li>
+<li><a href="/services#demolition">Garage &amp; Shed Demolition</a></li>
+<li><a href="/pricing">Load Prices &amp; Guide</a></li>
+<li><a href="/media">Before &amp; After Results</a></li>
+<li><a href="/testimonials">Customer Reviews (5.0★)</a></li>
+<li><a href="/about-us">About Us &amp; Areas Covered</a></li>
+<li><a href="/contact">Fast WhatsApp Quote &amp; Contact</a></li>
 </ul>
 </div>
 <div>
-<h3>Areas &amp; business details</h3>
+<h3>Areas &amp; Business Details</h3>
 <ul>
-<li><a href="/rubbish-removal-bromley/">Rubbish removal Bromley</a></li>
-<li><a href="/rubbish-removal-south-east-london/">Rubbish removal South East London</a></li>
-<li><a href="/rubbish-removal-kent/">Rubbish removal Kent</a></li>
-<li>Environment Agency registration: CBDU195530</li>
-<li>Company number: 10919033</li>
-<li>Mon-Fri: 7am-6pm</li>
-<li>Saturday: 7am-3pm</li>
+<li><a href="/about-us#bromley">Rubbish Removal Bromley, Beckenham &amp; Orpington</a></li>
+<li><a href="/about-us#south-east-london">Rubbish Removal South East London</a></li>
+<li><a href="/about-us#kent">Rubbish Removal North West Kent</a></li>
+<li><a href="tel:+447931935833">Tel: 07931 935 833</a></li>
+<li><a href="mailto:info@alljunksolutions.co.uk">info@alljunksolutions.co.uk</a></li>
+<li>Environment Agency Licence: CBDU195530</li>
+<li>All Junk Solutions Limited · Co. No: 10919033</li>
+<li>Mon–Fri: 7am–6pm · Sat: 7am–3pm</li>
 </ul>
 </div>
 </div>
 </footer>
+<div aria-label="Quick mobile contact bar" class="mobile-bar">
+  <a class="btn btn-outline" href="tel:+447931935833">Call 07931 935 833</a>
+  <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote.%20My%20postcode%20is%3A%20" rel="noopener" target="_blank">WhatsApp Quote</a>
+</div>

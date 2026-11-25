@@ -1,0 +1,930 @@
+<main id="main" class="alljunk-multipage">
+  <section class="reviews-banner-section reviews-page-hero" aria-labelledby="reviews-page-heading">
+    <div class="wrap">
+      <nav class="page-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <span>Customer Reviews</span></nav>
+      <div class="reviews-hero-banner">
+        <div class="reviews-hero-copy">
+          <img src="/assets/all-junk-logo-transparent.png" alt="All Junk Solutions" class="reviews-brand-logo" width="300" height="169" decoding="async" />
+          <h1 id="reviews-page-heading">What our customers say</h1>
+          <div class="reviews-google-bar" aria-label="Google rating 5.0 out of 5 across 112 Google reviews">
+            <span class="g-wordmark" aria-label="Google"><span class="g-w-blue">G</span><span class="g-w-red">o</span><span class="g-w-yellow">o</span><span class="g-w-blue">g</span><span class="g-w-green">l</span><span class="g-w-red">e</span></span>
+            <span class="g-divider" aria-hidden="true"></span>
+            <strong class="g-score">5.0</strong>
+            <div class="g-stars-meta">
+              <span class="g-stars-row" aria-hidden="true">★★★★★</span>
+              <span class="g-count-text">112 Google reviews</span>
+            </div>
+          </div>
+          <p class="reviews-page-lead">Real customer reviews from homeowners, landlords and businesses across Bromley, Beckenham, Orpington, Kent and South East London.</p>
+        </div>
+        <div class="reviews-hero-van">
+          <img src="/assets/all-junk-van-reviews.webp" alt="All Junk Solutions branded waste collection vehicle" width="444" height="268" decoding="async" />
+        </div>
+      </div>
+
+      <div class="reviews-featured-grid">
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Rickers</h3>
+  <p class="g-card-quote">“They arrived 5 minutes early and all 3 of them cleared the rubbish within 30 minutes.”</p>
+  
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Tracey Brown</h3>
+  <p class="g-card-quote">“Always reliable, quick and tidy clearance.”</p>
+  
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Megan Few</h3>
+  <p class="g-card-quote">“Arranging a slot to collect is so easy!”</p>
+  
+</article>
+      </div>
+
+      <div class="reviews-cta-row">
+        <a class="g-reviews-cta-btn" href="https://maps.app.goo.gl/czcm2XFHp3UNhPme9" target="_blank" rel="noopener">Read all 112 reviews on Google</a>
+        <a class="g-reviews-more-btn" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" target="_blank" rel="noopener">Send Photos on WhatsApp for a Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews-archive-section" aria-labelledby="all-reviews-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-kicker">Verified Customer Feedback</div>
+        <h2 id="all-reviews-heading">All 93 Customer Reviews &amp; Testimonials</h2>
+        <p>Every review below is genuine customer feedback for James and the All Junk Solutions team across house clearances, garden waste, builders rubble, shed demolition and same-day collections.</p>
+      </div>
+
+      <div class="review-filter-bar" role="tablist" aria-label="Filter reviews by job type">
+        <button class="review-filter-btn active" type="button" data-review-filter="all">All Reviews (93)</button>
+        <button class="review-filter-btn" type="button" data-review-filter="fast">Fast &amp; Same-Day Arrival</button>
+        <button class="review-filter-btn" type="button" data-review-filter="house">House, Loft &amp; Rubble Clearance</button>
+        <button class="review-filter-btn" type="button" data-review-filter="garden">Garden &amp; Shed Clearance</button>
+        <button class="review-filter-btn" type="button" data-review-filter="value">Skip Alternative &amp; Fair Price</button>
+      </div>
+
+      <div class="reviews-all-grid" id="allReviewsGrid">
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Rickers</h3>
+  <p class="g-card-quote">“They arrived 5 minutes early and all 3 of them cleared the rubbish within 30 minutes.”</p>
+  <span class="g-card-date">Google review</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Tracey Brown</h3>
+  <p class="g-card-quote">“Always reliable, quick and tidy clearance.”</p>
+  <span class="g-card-date">Google review</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Megan Few</h3>
+  <p class="g-card-quote">“Arranging a slot to collect is so easy!”</p>
+  <span class="g-card-date">Google review</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Gary Elliott</h3>
+  <p class="g-card-quote">“James came within 2 hours of the initial inquiry and took away the old sofa no problems, great service good price will definitely use again.”</p>
+  <span class="g-card-date">Verified customer</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Leia Parry</h3>
+  <p class="g-card-quote">“I had rubbish from a flooded bathroom in the garden for months, but in 20 minutes these guys came and whisked it away. Highly recommend, fair pricing and a fab service.”</p>
+  <span class="g-card-date">Verified customer</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Marc George</h3>
+  <p class="g-card-quote">“Really happy with the service provided, bang on time and got the job done quick, friendly bunch of fellas.”</p>
+  <span class="g-card-date">5-star review</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Verified Customer (Bromley)</h3>
+  <p class="g-card-quote">“Fantastic, friendly, professional, efficient service. Less than 24 hours from the initial enquiry to the job being completed. I would highly recommend this company and will definitely be using their services again if required. Thanks again.”</p>
+  <span class="g-card-date">Verified customer</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Verified Customer (Yard Clearance)</h3>
+  <p class="g-card-quote">“Just had our yard cleared. Good reliable service at a fair price!”</p>
+  <span class="g-card-date">Verified customer</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Jodie Littlewood</h3>
+  <p class="g-card-quote">“Excellent service as always from the team at All Junk Solutions, quick and efficient and very reasonably priced. I have used them a number of times now and the service is always professional.”</p>
+  <span class="g-card-date">Repeat customer</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Lindsay Pollock</h3>
+  <p class="g-card-quote">“What was becoming a nightmare was resolved by James and his team very quickly. James provided a fast, efficient and very friendly service at very short notice and at a very reasonable price. I would thoroughly recommend them. Nothing was too much trouble and it was a pleasure to deal with him and his staff.”</p>
+  <span class="g-card-date">Verified customer</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Fiona Carmel</h3>
+  <p class="g-card-quote">“James and his team came to my rescue twice in a short space of time. Very friendly and helpful. Will definitely recommend them to others and use them in the future.”</p>
+  <span class="g-card-date">Repeat customer</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Louise Thompson</h3>
+  <p class="g-card-quote">“Friendly, prompt and reasonable, definitely use again.”</p>
+  <span class="g-card-date">Verified customer</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Stephanie Molloy</h3>
+  <p class="g-card-quote">“James picked up our rubbish — was very quick, good price and left everything super tidy. Would recommend.”</p>
+  <span class="g-card-date">Verified customer</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Leigh-Ann Weller</h3>
+  <p class="g-card-quote">“Used this company twice, would highly recommend.”</p>
+  <span class="g-card-date">Repeat customer</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Natasha Gee</h3>
+  <p class="g-card-quote">“Super efficient. Offering a friendly and reliable service. More cost effective than a skip — larger volume and the added bonus of James and his team loading it all up for you. Would definitely use again. Thank you.”</p>
+  <span class="g-card-date">Verified customer</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Joe Smith</h3>
+  <p class="g-card-quote">“All Junk Solutions are tip top! Friendly and professional. Will be using them in the future — would highly recommend!”</p>
+  <span class="g-card-date">December 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Carolyn Collins</h3>
+  <p class="g-card-quote">“I emailed All Junk Solutions on a Sunday morning, and within 15 minutes I got a call back. He came that very afternoon and hauled my junk away. He arrived at the time specified, and he was friendly, courteous, efficient, and professional. I would definitely recommend him to others and will call him again if the need arises.”</p>
+  <span class="g-card-date">December 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Karen Wiltshire</h3>
+  <p class="g-card-quote">“Excellent service — contacted me, gave a quote and was there within the hour. Highly recommend.”</p>
+  <span class="g-card-date">November 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Laura Tye</h3>
+  <p class="g-card-quote">“James &amp; his team were punctual, efficient and nice to deal with. They cleared out our shed ahead of a house move in no time at all. Would definitely use again.”</p>
+  <span class="g-card-date">November 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Zoe Sivell-Thornton</h3>
+  <p class="g-card-quote">“Very efficient, reliable and polite. Got the job done in no time and very reasonable price. Would definitely use James and his guys again.”</p>
+  <span class="g-card-date">October 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Pauline Crossman</h3>
+  <p class="g-card-quote">“Very nice men, did a good job, very quick and cleaned up after them.”</p>
+  <span class="g-card-date">October 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Francesco Fulcoli</h3>
+  <p class="g-card-quote">“Highly recommended! Quick, efficient and clean at the right price! Very well done.”</p>
+  <span class="g-card-date">October 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Sandra Coppellotti</h3>
+  <p class="g-card-quote">“Highly recommended! Quick, efficient and very good service for a very reasonable price. Many thanks for helping with the house clearance.”</p>
+  <span class="g-card-date">October 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Claire Laney</h3>
+  <p class="g-card-quote">“Used this company today and they are very good. Reasonably priced and worked hard.”</p>
+  <span class="g-card-date">October 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Alice Wonder</h3>
+  <p class="g-card-quote">“Great service, quick, efficient and good value. Thanks!”</p>
+  <span class="g-card-date">October 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Ben Toovey</h3>
+  <p class="g-card-quote">“Just want to say thank you for today&#x27;s house clearance, went above &amp; beyond. Highly recommended. Thanks again.”</p>
+  <span class="g-card-date">September 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Rachel Hen</h3>
+  <p class="g-card-quote">“The team arrived as arranged, cleared all the rubbish in the pouring rain. Would recommend — thanks very much.”</p>
+  <span class="g-card-date">September 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Nicola Pender</h3>
+  <p class="g-card-quote">“Arrived early, did all the hard work and were very efficient. Highly recommend.”</p>
+  <span class="g-card-date">September 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Amy Ager</h3>
+  <p class="g-card-quote">“First time we&#x27;ve used waste collection — we usually use skips — but we were so pleased. Fast response, good price and came the very next day. Really friendly guys too. Will be using again, thank you!”</p>
+  <span class="g-card-date">September 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Katherine Mott</h3>
+  <p class="g-card-quote">“Great service and communication. Fast response and reasonable rates. Very friendly and polite, would highly recommend.”</p>
+  <span class="g-card-date">August 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Charl Dickson</h3>
+  <p class="g-card-quote">“Very polite and friendly, arrived on time and even asked me if I had more I wanted to get rid of.”</p>
+  <span class="g-card-date">August 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Jackie Crook</h3>
+  <p class="g-card-quote">“Quoted and took rubbish away at the same time. Would definitely use this company again.”</p>
+  <span class="g-card-date">August 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Jane Carrasco</h3>
+  <p class="g-card-quote">“Prompt, polite, efficient service. Would definitely recommend and use again. Thanks guys!”</p>
+  <span class="g-card-date">July 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Malcolm Jones</h3>
+  <p class="g-card-quote">“Terrific service. They arrived to quote and did the job at the same time. Fast, friendly and a good price.”</p>
+  <span class="g-card-date">July 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Christina Flynn</h3>
+  <p class="g-card-quote">“Yes — they were brilliant. Reasonable, fast and super friendly.”</p>
+  <span class="g-card-date">July 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Sophie Huggers Carter</h3>
+  <p class="g-card-quote">“Honestly couldn&#x27;t recommend more, was really quick to respond and even quicker to get the job done. Was super sympathetic to my budget and really just an all round nice guy/team. So helpful, above and beyond. Would recommend to anyone.”</p>
+  <span class="g-card-date">July 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Hannah Koo</h3>
+  <p class="g-card-quote">“Extremely quick response to both messages and also carrying out the job. Helpful and made the whole process very easy. Very much recommend!”</p>
+  <span class="g-card-date">July 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Jane Dell&#x27;Oste</h3>
+  <p class="g-card-quote">“Highly recommended. Quick to answer enquiry and friendly and efficient service. First class service. Thank you.”</p>
+  <span class="g-card-date">June 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Ris Feb</h3>
+  <p class="g-card-quote">“Excellent service! Very efficient, reliable, good price and friendly. Would definitely recommend them. Thank you!”</p>
+  <span class="g-card-date">June 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Tony Budai</h3>
+  <p class="g-card-quote">“Big thank you to James and his team — cleared all my rubbish. Very professional, highly recommended.”</p>
+  <span class="g-card-date">June 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Brendan Doyle</h3>
+  <p class="g-card-quote">“Fantastic job clearing a massive amount of garden waste and general junk. On time, nothing was too much trouble and cleaned up. Thank you for a job very well done!”</p>
+  <span class="g-card-date">June 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Laura Darby</h3>
+  <p class="g-card-quote">“Reliable, hardworking, friendly and even dismantled a kids plastic playhouse for me. Would definitely recommend!”</p>
+  <span class="g-card-date">June 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Steven Coppard</h3>
+  <p class="g-card-quote">“Can&#x27;t fault these guys. By far the cheapest of the 4 quotes I got, in fact nearly half the price of the next cheapest. Sent pics, got quote, arranged time. Pic was sent to me when it had been cleared. Legit company too, registered on Companies House — just doing an amazing job at a fantastic price.”</p>
+  <span class="g-card-date">June 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Isabelle Gutierrez</h3>
+  <p class="g-card-quote">“Really reasonable quote, very quick to come and collect and accepted a bank transfer after it had been collected (we were out). Great service — will definitely use again!”</p>
+  <span class="g-card-date">June 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Natalie Hoffmann</h3>
+  <p class="g-card-quote">“These guys did a great job. So professional, polite and quick! I would highly recommend them. Thank you!”</p>
+  <span class="g-card-date">May 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Sally Allen</h3>
+  <p class="g-card-quote">“On time, quick, friendly, reasonably priced.”</p>
+  <span class="g-card-date">May 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Sam Slatter</h3>
+  <p class="g-card-quote">“Excellent service, replies to messages straight away and cleared all our mess that had started to build up down the side of the house. Great price.”</p>
+  <span class="g-card-date">May 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Emma Harwood</h3>
+  <p class="g-card-quote">“Great communication from start to finish. My husband was present during the clear up and was very pleased with the professional service he received. Good pricing and would happily recommend to others.”</p>
+  <span class="g-card-date">May 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Katy Jarred</h3>
+  <p class="g-card-quote">“Highly recommended. They came and collected all my garden rubbish the same day I contacted them, excellent service, great price.”</p>
+  <span class="g-card-date">May 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Aristida Lavrinionok</h3>
+  <p class="g-card-quote">“Quick response, excellent service and great price. Highly recommended!”</p>
+  <span class="g-card-date">May 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Faye Wyatt</h3>
+  <p class="g-card-quote">“Would definitely recommend! Fast friendly service!”</p>
+  <span class="g-card-date">May 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Simone Crofton</h3>
+  <p class="g-card-quote">“Did a great job of clearing a ripped up old wooden patio. Quick, efficient and very professional. Good price. Would definitely use again.”</p>
+  <span class="g-card-date">April 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Kerrie Joanne</h3>
+  <p class="g-card-quote">“Highly recommend. Cleared everything no problem and very fair price.”</p>
+  <span class="g-card-date">April 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Margaret Greenslade</h3>
+  <p class="g-card-quote">“Would highly recommend them, very polite and did a great job clearing my garden rubbish. I will definitely use them again.”</p>
+  <span class="g-card-date">April 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Mark Vickers</h3>
+  <p class="g-card-quote">“Proper nice fellas, very reliable and great value — won&#x27;t use anyone else in the future.”</p>
+  <span class="g-card-date">April 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Emma Webster</h3>
+  <p class="g-card-quote">“Requested a quote yesterday morning and everything cleared for a really competitive price just two hours later. Friendly and helpful team — will be using them again.”</p>
+  <span class="g-card-date">April 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Ingrid Hickey</h3>
+  <p class="g-card-quote">“Enquired in the morning and by the afternoon all rubbish cleared and swept. Fab service by James and great price.”</p>
+  <span class="g-card-date">April 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Claire Willis</h3>
+  <p class="g-card-quote">“Hugely impressed! Wonderful team, polite, courteous and fun and helped me out no end. Was a pleasure dealing with you and will definitely be in touch again.”</p>
+  <span class="g-card-date">April 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Dawn Brett</h3>
+  <p class="g-card-quote">“Good communication and fast removal. Wouldn&#x27;t hesitate to recommend. I would definitely use again.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Kevin Kirwin</h3>
+  <p class="g-card-quote">“Highly recommended. Good price, very efficient and friendly.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Jason Dance</h3>
+  <p class="g-card-quote">“Really impressed with these guys, really friendly, super efficient, and all done for a great price. Would definitely recommend them.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Lyn Hibbett</h3>
+  <p class="g-card-quote">“Very pleasant guys. Shifted a huge amount of builders rubble. Fast and at a good price. Definitely recommend them.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Belinda Bowles</h3>
+  <p class="g-card-quote">“I would highly recommend All Junk Solutions, cleared our loft today, not an easy task. James and the guys were very efficient, great service and value for money.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Lee Clubb</h3>
+  <p class="g-card-quote">“We use All Junk Solutions regularly. We have no options for skips in the work that we do, in the areas we work. James and his team take all the worry of waste disposal away from us without any issues, even at short notice! Very professional service.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Richard Greenshields</h3>
+  <p class="g-card-quote">“Very happy to recommend All Junk Solutions. Efficient, friendly service at a very good price.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Paul Collins</h3>
+  <p class="g-card-quote">“They came on time. And they cleared the junk that was required to go. These are good people to call when you want rubbish cleared, it gets cleared.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Esther Smith</h3>
+  <p class="g-card-quote">“James and his colleagues made light work of clearing our garden; dismantling two garden sheds and getting rid of a load of junk left behind by previous occupants. Really pleased with the result. Thank you James and team.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Diane Bleach</h3>
+  <p class="g-card-quote">“Great service and price, arrived at the agreed time. Would recommend them and we will use them again in the future.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Faye Hebdon</h3>
+  <p class="g-card-quote">“Fast response with both quote and collection. Charged as agreed. I would use again and recommend.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Vicky McNamara</h3>
+  <p class="g-card-quote">“Perfect service and very reasonably priced.”</p>
+  <span class="g-card-date">March 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Anna Aniano</h3>
+  <p class="g-card-quote">“Very good service. Thank you!”</p>
+  <span class="g-card-date">February 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Azim Mohamedali</h3>
+  <p class="g-card-quote">“James and his crew were polite, reasonable and efficient in removing our rubbish. Will be using their services again! Thank you.”</p>
+  <span class="g-card-date">February 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Cheyenne Coyle</h3>
+  <p class="g-card-quote">“Would highly recommend, great service, good communication through contact, turned up on time, took away what was needed &amp; quoted a decent price. Thank you!”</p>
+  <span class="g-card-date">February 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Victoria Younger</h3>
+  <p class="g-card-quote">“Would highly recommend James O&#x27;Neill and his team for rubbish collection service — super fast service, very polite and happy people, nothing too much trouble, would certainly use again, amazing service, removed all the items at a very good price. I am a very happy customer.”</p>
+  <span class="g-card-date">February 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Verified Customer (House Move)</h3>
+  <p class="g-card-quote">“Great service, very friendly. Helped so much with the stress when moving house. Would definitely recommend and use again! Thank you!”</p>
+  <span class="g-card-date">February 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Ruth Jaffe</h3>
+  <p class="g-card-quote">“Lovely man. Worked extremely hard so I could get to my appt on time. Very good price AND he is a Licensed Waste Carrier. Left area clean and tidy too. Would use him again. Thank you.”</p>
+  <span class="g-card-date">January 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Rita Collins</h3>
+  <p class="g-card-quote">“Good communication, easy payment methods and very reliable. Would use again. Thanks.”</p>
+  <span class="g-card-date">January 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Renée Rose</h3>
+  <p class="g-card-quote">“Thank you for a great job. This is a great company, the chaps are fast and efficient, highly recommended.”</p>
+  <span class="g-card-date">January 2019</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Helen Louise Eagles</h3>
+  <p class="g-card-quote">“A fantastic service — came the next day after quote and cleaned all my rubbish away. Would recommend.”</p>
+  <span class="g-card-date">November 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Rob Taylor</h3>
+  <p class="g-card-quote">“All Junk Solutions did a great job removing all the rubble left behind after being let down by my builder. They were very prompt and friendly and I would recommend them highly.”</p>
+  <span class="g-card-date">November 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Chris Owen</h3>
+  <p class="g-card-quote">“Messaged this morning at 10am and all of our waste was gone by midday. Highly recommended!”</p>
+  <span class="g-card-date">November 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Oli Barker</h3>
+  <p class="g-card-quote">“Had these guys in to remove a load of rubbish from our garden and garage. It was a mix of domestic, garden waste and some really heavy paving slabs. They did a fantastic job, were very thorough and cleaned up after themselves. Great job all round and would most definitely use them again!”</p>
+  <span class="g-card-date">October 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Louise May</h3>
+  <p class="g-card-quote">“Very efficient and reliable good service.”</p>
+  <span class="g-card-date">October 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Liana Pretorius</h3>
+  <p class="g-card-quote">“Very friendly and prompt response. Will definitely use again. Job well done.”</p>
+  <span class="g-card-date">October 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Jane Morbin</h3>
+  <p class="g-card-quote">“Highly recommended — quick, efficient and friendly, would definitely use again.”</p>
+  <span class="g-card-date">September 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Susanne Johns</h3>
+  <p class="g-card-quote">“Excellent service at such short notice. They cleared an old kitchen and all the builders waste quickly and their quote was spot on. I&#x27;d definitely recommend them.”</p>
+  <span class="g-card-date">August 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Robyn Hammond</h3>
+  <p class="g-card-quote">“Great service and good price. Came within a few hours of phoning. Would recommend.”</p>
+  <span class="g-card-date">August 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Andi Burris</h3>
+  <p class="g-card-quote">“I rang in the morning, they arrived when they said they would to give us a quote, and then took everything away right there and then. I am delighted with the service. Will definitely use them again.”</p>
+  <span class="g-card-date">August 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Cath Perrott</h3>
+  <p class="g-card-quote">“Fantastic service. Got back to me quickly, cleaned up all of the rubbish on my drive and a reasonable price too. I would definitely recommend.”</p>
+  <span class="g-card-date">August 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Verified Customer (Appliance Removal)</h3>
+  <p class="g-card-quote">“Wow, contacted and picked up old fridge within 30 mins. Great stuff, many thanks!”</p>
+  <span class="g-card-date">August 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Andy Morgan</h3>
+  <p class="g-card-quote">“Used All Junk Solutions today to clear rubbish from my parents&#x27; house. They turned up in the time proposed and cleared everything quickly and tidily. Very good value for money. Thanks.”</p>
+  <span class="g-card-date">August 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="garden">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Marilyn O-Hall</h3>
+  <p class="g-card-quote">“Called All Junk Solutions in the evening to enquire about garden clearance. James &amp; Danny arrived next morning, earlier than expected, looked at job, priced up, wasted no time, cleared garden within an hour. Very professional, nice guys.”</p>
+  <span class="g-card-date">August 2018</span>
+</article>
+<article class="g-review-card" data-review-cat="value">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Paula Walker</h3>
+  <p class="g-card-quote">“Amazing service and great value for money. I definitely recommend!”</p>
+  <span class="g-card-date">August 2018</span>
+</article>
+      </div>
+
+      <div class="reviews-bottom-cta">
+        <div>
+          <h3>Ready for a fast, tidy clearance?</h3>
+          <p>Send photos of your waste and your postcode on WhatsApp to 07931 935 833 for a clear quote.</p>
+        </div>
+        <div class="reviews-bottom-actions">
+          <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" target="_blank" rel="noopener">Send Photos on WhatsApp</a>
+          <a class="btn btn-outline" href="tel:+447931935833">Call 07931 935 833</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

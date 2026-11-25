@@ -1,0 +1,20 @@
+<main id="main" class="alljunk-multipage">
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="page-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <span>Pricing</span></nav>
+      <span class="eyebrow">Transparent Load &amp; Item Pricing</span>
+      <h1>Simple Rubbish Removal Prices in <span>Bromley, Kent &amp; SE London</span></h1>
+      <p class="hero-copy">Every quote includes our team loading your waste, sweeping the area clean, responsible disposal at licensed facilities, and zero hidden extras for parking or congestion charges.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20price%20quote.%20My%20postcode%20is%3A%20" rel="noopener" target="_blank">Send Photos on WhatsApp for Exact Price</a>
+        <a class="btn btn-outline" href="tel:+447931935833">Call 07931 935 833</a>
+      </div>
+    </div>
+  </section>
+
+  {@|apply alljunk-pricing.block}
+  {@|apply alljunk-process.block}
+  {@|apply alljunk-faq.block}
+  {@|apply alljunk-reviews.block}
+  {@|apply alljunk-contact.block}
+</main>

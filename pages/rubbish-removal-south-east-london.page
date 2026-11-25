@@ -1,0 +1,74 @@
+<main id="main" class="alljunk-multipage">
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="page-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <span>About Us &amp; Areas Covered</span></nav>
+      <span class="eyebrow">Established Bromley Team · Since 2017</span>
+      <h1>About All Junk Solutions &amp; <span>Areas We Cover</span></h1>
+      <p class="hero-copy">All Junk Solutions Limited (Company No. 10919033) is an upper-tier Environment Agency licensed waste carrier (CBDU195530) based in Bromley, serving homes and businesses across Bromley, Kent and South East London.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20to%20check%20my%20postcode%20and%20get%20a%20quote" rel="noopener" target="_blank">Check Your Postcode on WhatsApp</a>
+        <a class="btn btn-outline" href="tel:+447931935833">Call 07931 935 833</a>
+      </div>
+    </div>
+  </section>
+
+  {@|apply alljunk-why-choose.block}
+
+  <section class="area-hubs-section" id="areas">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-kicker">Local Service Areas</div>
+        <h2>Rubbish removal across Bromley, Kent &amp; South East London</h2>
+        <p>We operate daily from our Bromley base. Below are our three core coverage zones — send your postcode and photos on WhatsApp to 07931 935 833 for fast confirmation and a fixed quote.</p>
+      </div>
+
+      <div class="area-hubs-grid">
+        <article class="area-hub-card" id="bromley">
+          <div class="section-kicker">Home Borough Coverage</div>
+          <h3>Rubbish Removal in Bromley, Beckenham &amp; Orpington</h3>
+          <p>As a Bromley-based team, we offer our fastest response times across the London Borough of Bromley — often with same-day or next-day collection slots for household junk, sofas, mattresses, garden waste, garage clearances and shed demolition.</p>
+          <ul class="area-town-list">
+            <li><strong>Bromley Town &amp; Bickley</strong> (BR1, BR2)</li>
+            <li><strong>Beckenham, Penge &amp; Anerley</strong> (BR3, SE20)</li>
+            <li><strong>Orpington, Petts Wood &amp; St Mary Cray</strong> (BR5, BR6)</li>
+            <li><strong>Chislehurst &amp; Elmstead</strong> (BR7)</li>
+            <li><strong>West Wickham, Hayes &amp; Keston</strong> (BR2, BR4)</li>
+            <li><strong>Biggin Hill &amp; Downe</strong> (TN16)</li>
+          </ul>
+          <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20Bromley%20rubbish%20removal%20quote" target="_blank" rel="noopener">Get a Bromley Quote on WhatsApp</a>
+        </article>
+
+        <article class="area-hub-card" id="south-east-london">
+          <div class="section-kicker">No Skip Permit Required</div>
+          <h3>Rubbish Removal Across South East London</h3>
+          <p>In busy South East London streets where skip permits, CPZ parking bays and congestion charges add extra hassle, our wait-and-load tipper trucks make clearance effortless. Parking and congestion charges are included in our quote.</p>
+          <ul class="area-town-list">
+            <li><strong>Lewisham, Catford, Hither Green &amp; Grove Park</strong> (SE6, SE12, SE13)</li>
+            <li><strong>Greenwich, Blackheath, Eltham &amp; Kidbrooke</strong> (SE3, SE9, SE10)</li>
+            <li><strong>Bexley, Bexleyheath, Welling &amp; Sidcup</strong> (DA5, DA6, DA7, DA14, DA15)</li>
+            <li><strong>Crystal Palace, Sydenham, Forest Hill &amp; Dulwich</strong> (SE19, SE21, SE23, SE26)</li>
+            <li><strong>Croydon, Shirley &amp; Addiscombe</strong> (CR0)</li>
+          </ul>
+          <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20South%20East%20London%20rubbish%20removal%20quote" target="_blank" rel="noopener">Get a SE London Quote on WhatsApp</a>
+        </article>
+
+        <article class="area-hub-card" id="kent">
+          <div class="section-kicker">Postcode-Confirmed Coverage</div>
+          <h3>Rubbish Removal in North West &amp; West Kent</h3>
+          <p>We cover towns and villages across North West and West Kent within practical travelling distance of Bromley. Send your postcode and photos on WhatsApp so James can confirm availability and price your load before booking.</p>
+          <ul class="area-town-list">
+            <li><strong>Swanley, Hextable &amp; Wilmington</strong> (BR8, DA2)</li>
+            <li><strong>Dartford, Crayford &amp; Eynsford</strong> (DA1, DA4)</li>
+            <li><strong>Sevenoaks, Otford, Knockholt &amp; Westerham</strong> (TN13, TN14, TN16)</li>
+            <li><strong>Tonbridge, Royal Tunbridge Wells &amp; surrounding Kent postcodes</strong> (by postcode check)</li>
+          </ul>
+          <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20Kent%20rubbish%20removal%20quote" target="_blank" rel="noopener">Check Your Kent Postcode on WhatsApp</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  {@|apply alljunk-reviews.block}
+  {@|apply alljunk-faq.block}
+  {@|apply alljunk-contact.block}
+</main>

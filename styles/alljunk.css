@@ -440,3 +440,90 @@
       .hero-bg-slider{z-index:-2}
     }
   
+
+    /* === GOOGLE REVIEWS BANNER (MATCHING REFERENCE DESIGN) === */
+    .reviews-banner-section{background:linear-gradient(180deg,#01103c 0%,#03154a 100%);color:#fff;padding:56px 0 60px;position:relative;overflow:hidden}
+    .reviews-hero-banner{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:24px;align-items:center;margin-bottom:32px}
+    .reviews-brand-logo{width:clamp(210px,24vw,300px);height:auto;margin-bottom:14px}
+    .reviews-hero-copy h1,.reviews-hero-copy h2{font-size:clamp(30px,4.1vw,46px);font-weight:800;color:#fff;line-height:1.08;letter-spacing:-.02em;margin:0 0 16px;text-shadow:none}
+    .reviews-page-lead{color:rgba(255,255,255,.84);font-size:16.5px;max-width:580px;margin-top:14px;line-height:1.55}
+    .reviews-google-bar{display:inline-flex;align-items:center;flex-wrap:wrap;gap:14px}
+    .g-wordmark{font-size:clamp(34px,4vw,46px);font-weight:700;letter-spacing:-.03em;line-height:1;display:inline-flex}
+    .g-w-blue{color:#4285F4}
+    .g-w-red{color:#EA4335}
+    .g-w-yellow{color:#FBBC05}
+    .g-w-green{color:#34A853}
+    .g-divider{width:2px;height:42px;background:rgba(255,255,255,.35);display:inline-block}
+    .g-score{font-size:clamp(38px,4.5vw,52px);font-weight:800;color:#fff;line-height:1;letter-spacing:-.03em}
+    .g-stars-meta{display:flex;flex-direction:column;gap:2px}
+    .g-stars-row{color:#fbbc04;font-size:clamp(22px,2.4vw,28px);line-height:1;letter-spacing:2px}
+    .g-count-text{color:#fff;font-size:15px;font-weight:700;letter-spacing:.01em}
+    .reviews-hero-van{display:flex;justify-content:flex-end;align-items:center}
+    .reviews-hero-van img{width:100%;max-width:444px;height:auto;object-fit:contain;border-radius:10px}
+    .reviews-featured-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .g-review-card{background:#fff;color:#0b1736;border-radius:14px;padding:22px 24px;box-shadow:0 14px 32px rgba(0,0,0,.22);display:flex;flex-direction:column;min-height:208px;border:1px solid rgba(255,255,255,.9);transition:transform .2s ease,box-shadow .2s ease}
+    .g-review-card:hover{transform:translateY(-3px);box-shadow:0 18px 38px rgba(0,0,0,.28)}
+    .g-card-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+    .g-card-stars{color:#fbbc04;font-size:21px;line-height:1;letter-spacing:1.5px}
+    .g-badge-icon{width:24px;height:24px;flex:0 0 auto;display:block}
+    .g-card-author{font-size:20px;font-weight:800;color:#0b1736;margin:0 0 8px;line-height:1.2}
+    .g-card-quote{font-size:16px;line-height:1.52;color:#1c2540;font-weight:500;margin:0;flex:1}
+    .g-card-date{display:block;margin-top:12px;padding-top:10px;border-top:1px solid #eef1f8;font-size:12.5px;font-weight:600;color:#5a6282}
+    .reviews-cta-row{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;margin-top:30px;text-align:center}
+    .g-reviews-cta-btn{display:inline-flex;align-items:center;justify-content:center;background:#8dc63f;color:#061238;font-size:clamp(17px,2vw,21px);font-weight:800;padding:15px 36px;border-radius:12px;text-decoration:none;box-shadow:0 12px 28px rgba(141,198,63,.32);transition:transform .18s ease,background-color .18s ease,box-shadow .18s ease}
+    .g-reviews-cta-btn:hover{background:#9ad348;transform:translateY(-2px);box-shadow:0 16px 34px rgba(141,198,63,.42)}
+    .g-reviews-more-btn{color:#fff;font-weight:700;font-size:15px;text-decoration:underline;text-underline-offset:4px;opacity:.92;transition:color .18s ease,opacity .18s ease}
+    .g-reviews-more-btn:hover{color:var(--green);opacity:1}
+
+    /* === SEPARATE GOOGLE MAP SECTION === */
+    .google-map-section{background:var(--mist);padding:64px 0}
+    .google-map-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);overflow:hidden;display:grid;grid-template-columns:.95fr 1.05fr;align-items:stretch}
+    .google-map-info{padding:34px 32px;display:flex;flex-direction:column;justify-content:center}
+    .google-map-info h2{font-size:clamp(26px,3.2vw,36px);margin-bottom:12px}
+    .google-map-info p{color:var(--muted);font-size:16px;line-height:1.6;margin-bottom:22px}
+    .google-map-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .google-map-embed{min-height:340px;background:#e8ecf7}
+    .google-map-embed iframe{width:100%;height:100%;min-height:340px;border:0;display:block}
+
+    /* === FULL REVIEWS ARCHIVE PAGE & MULTIPAGE SECTIONS === */
+    .page-breadcrumbs{font-size:13.5px;font-weight:600;color:rgba(255,255,255,.78);margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+    .page-breadcrumbs a{color:var(--green);text-decoration:none}
+    .page-breadcrumbs a:hover{text-decoration:underline}
+    .page-hero{background:linear-gradient(135deg,#010080 0%,#051650 100%);color:#fff;padding:56px 0 60px;border-bottom:4px solid var(--green)}
+    .page-hero h1{margin-bottom:16px}
+    .page-hero .hero-copy{margin:14px 0 24px;max-width:680px}
+    .reviews-archive-section{background:var(--mist);padding:68px 0}
+    .review-filter-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px}
+    .review-filter-btn{background:#fff;color:var(--charcoal);border:1.5px solid var(--line);border-radius:999px;padding:10px 18px;font-size:14px;font-weight:700;cursor:pointer;transition:all .18s ease}
+    .review-filter-btn:hover{border-color:var(--green-dark);background:#f9fcf4}
+    .review-filter-btn.active{background:var(--charcoal);color:#fff;border-color:var(--charcoal)}
+    .reviews-all-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .reviews-all-grid .g-review-card{box-shadow:var(--shadow-sm);border:1px solid var(--line)}
+    .reviews-bottom-cta{margin-top:42px;background:var(--charcoal);color:#fff;border-radius:var(--radius);padding:28px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;box-shadow:var(--shadow)}
+    .reviews-bottom-cta h3{font-size:24px;color:var(--green);margin-bottom:6px}
+    .reviews-bottom-cta p{color:rgba(255,255,255,.86);font-size:15.5px}
+    .reviews-bottom-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .service-deep-dives,.area-hubs-section,.whatsapp-journey-section{background:var(--mist);padding:72px 0}
+    .deep-dive-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+    .deep-dive-card,.area-hub-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:14px}
+    .deep-dive-card h3,.area-hub-card h3{font-size:24px;color:var(--charcoal)}
+    .deep-dive-card p,.area-hub-card p{color:var(--muted);font-size:15.5px;line-height:1.6}
+    .deep-dive-card ul,.area-town-list{list-style:none;padding:0;margin:4px 0 10px;display:grid;gap:9px}
+    .deep-dive-card li,.area-town-list li{position:relative;padding-left:26px;font-size:14.5px;font-weight:600;color:var(--charcoal)}
+    .deep-dive-card li::before,.area-town-list li::before{content:"\2713";position:absolute;left:0;top:2px;width:18px;height:18px;border-radius:50%;background:var(--green);color:var(--charcoal);display:grid;place-items:center;font-size:11px;font-weight:800}
+    .deep-dive-card .btn,.area-hub-card .btn{margin-top:auto;align-self:flex-start}
+    .area-hubs-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+    .areas-cta-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+
+    @media (max-width:960px){
+      .reviews-hero-banner,.google-map-card,.deep-dive-grid,.area-hubs-grid{grid-template-columns:minmax(0,1fr)}
+      .reviews-featured-grid,.reviews-all-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .reviews-hero-van{justify-content:center}
+    }
+    @media (max-width:640px){
+      .reviews-banner-section,.page-hero{padding:40px 0 44px}
+      .reviews-featured-grid,.reviews-all-grid{grid-template-columns:minmax(0,1fr)}
+      .g-reviews-cta-btn{width:100%;padding:15px 20px;font-size:17px}
+      .reviews-bottom-cta{padding:22px 20px}
+      .reviews-bottom-actions,.reviews-bottom-actions .btn,.deep-dive-card .btn,.area-hub-card .btn{width:100%}
+    }

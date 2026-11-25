@@ -1,36 +1,76 @@
-<section class="reviews" id="reviews">
-<div class="wrap">
-<div class="section-head">
-<div class="section-kicker">Google reviews</div>
-<h2>Customers mention the same things: fast, fair, tidy</h2>
-<p>Real customer feedback for All Junk Solutions, shown in a simple rotating carousel.</p>
-</div>
-<div class="reviews-layout">
-<div class="review-carousel" data-google-reviews="" data-google-reviews-endpoint="">
-<div class="review-meta">
-<div class="google-rating">
-<span aria-hidden="true" class="google-g">G</span>
-<span><span aria-hidden="true" class="rating-stars">★★★★★</span> <span data-review-rating="">Google reviews</span></span>
-</div>
-<span class="review-source" data-review-source="">Showing customer feedback</span>
-</div>
-<div aria-atomic="true" aria-live="polite" class="review-track" data-review-track=""></div>
-<div class="review-controls">
-<div class="review-arrows">
-<button aria-label="Previous review" class="review-btn" data-review-prev="" type="button">‹</button>
-<button aria-label="Next review" class="review-btn" data-review-next="" type="button">›</button>
-</div>
-<div aria-label="Review carousel position" class="review-dots" data-review-dots=""></div>
-<a class="google-review-link" href="https://www.google.com/maps/search/?api=1&amp;query=All%20Junk%20Solutions%20Pope%20Road%20Bromley" rel="noopener" target="_blank">View on Google</a>
-</div>
-</div>
-<div class="map-card">
-<div class="map-copy">
-<h3>Find All Junk Solutions on Google Maps</h3>
-<p>Based around Bromley and covering Kent and South East London.</p>
-</div>
-<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=All%20Junk%20Solutions%20Bromley%20Kent&amp;output=embed" title="Google Map for All Junk Solutions"></iframe>
-</div>
-</div>
-</div>
+<section class="reviews-banner-section" id="reviews" aria-labelledby="reviews-heading">
+  <div class="wrap">
+    <div class="reviews-hero-banner">
+      <div class="reviews-hero-copy">
+        <img src="/assets/all-junk-logo-transparent.png" alt="All Junk Solutions" class="reviews-brand-logo" width="320" height="180" loading="lazy" decoding="async" />
+        <h2 id="reviews-heading">What our customers say</h2>
+        <div class="reviews-google-bar" aria-label="Google rating 5.0 out of 5 across 112 Google reviews">
+          <span class="g-wordmark" aria-label="Google"><span class="g-w-blue">G</span><span class="g-w-red">o</span><span class="g-w-yellow">o</span><span class="g-w-blue">g</span><span class="g-w-green">l</span><span class="g-w-red">e</span></span>
+          <span class="g-divider" aria-hidden="true"></span>
+          <strong class="g-score">5.0</strong>
+          <div class="g-stars-meta">
+            <span class="g-stars-row" aria-hidden="true">★★★★★</span>
+            <span class="g-count-text">112 Google reviews</span>
+          </div>
+        </div>
+      </div>
+      <div class="reviews-hero-van">
+        <img src="/assets/all-junk-van-reviews.webp" alt="All Junk Solutions branded waste collection vehicle" width="444" height="268" loading="lazy" decoding="async" />
+      </div>
+    </div>
+
+    <div class="reviews-featured-grid">
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Rickers</h3>
+  <p class="g-card-quote">“They arrived 5 minutes early and all 3 of them cleared the rubbish within 30 minutes.”</p>
+  
+</article>
+<article class="g-review-card" data-review-cat="house">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Tracey Brown</h3>
+  <p class="g-card-quote">“Always reliable, quick and tidy clearance.”</p>
+  
+</article>
+<article class="g-review-card" data-review-cat="fast">
+  <div class="g-card-top">
+    <span class="g-card-stars" aria-label="5 out of 5 stars">★★★★★</span>
+    <svg class="g-badge-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.57-1.14 2.92-2.4 3.82v3.18h3.88c2.27-2.09 3.54-5.17 3.54-9.24z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.18c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.29C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.11c-.24-.72-.38-1.49-.38-2.28s.14-1.56.38-2.28V6.26H1.29C.47 7.89 0 9.89 0 12s.47 4.11 1.29 5.74l3.99-3.63z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.26l3.99 3.29c.95-2.85 3.6-4.8 6.72-4.8z"/></svg>
+  </div>
+  <h3 class="g-card-author">Megan Few</h3>
+  <p class="g-card-quote">“Arranging a slot to collect is so easy!”</p>
+  
+</article>
+    </div>
+
+    <div class="reviews-cta-row">
+      <a class="g-reviews-cta-btn" href="https://maps.app.goo.gl/czcm2XFHp3UNhPme9" target="_blank" rel="noopener">Read all 112 reviews on Google</a>
+      <a class="g-reviews-more-btn" href="/testimonials">View all 93 customer reviews on our site →</a>
+    </div>
+  </div>
+</section>
+
+<section class="google-map-section" id="find-us" aria-labelledby="google-map-heading">
+  <div class="wrap">
+    <div class="google-map-card">
+      <div class="google-map-info">
+        <div class="section-kicker">Google Business Profile &amp; Service Area</div>
+        <h2 id="google-map-heading">Based in Bromley, covering Kent &amp; South East London</h2>
+        <p>All Junk Solutions operates from Bromley across Beckenham, Orpington, Chislehurst, West Wickham, Lewisham, Greenwich, Bexley, Sevenoaks, Dartford and surrounding postcodes. Send photos and your postcode on WhatsApp for a fast fixed quote.</p>
+        <div class="google-map-actions">
+          <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote" target="_blank" rel="noopener">WhatsApp Photos for a Quote</a>
+          <a class="btn btn-outline" href="https://maps.app.goo.gl/czcm2XFHp3UNhPme9" target="_blank" rel="noopener">Open Google Maps Profile</a>
+        </div>
+      </div>
+      <div class="google-map-embed">
+        <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?cid=9362741328889234928&amp;output=embed" title="Google Maps listing for All Junk Solutions in Bromley"></iframe>
+      </div>
+    </div>
+  </div>
 </section>

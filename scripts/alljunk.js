@@ -245,6 +245,34 @@
       });
     });
 
+    // 8. Customer Reviews Category Filter Tabs (/testimonials & /reviews)
+    const filterButtons = document.querySelectorAll("[data-review-filter]");
+    const reviewGrid = document.getElementById("allReviewsGrid");
+    if (filterButtons.length && reviewGrid) {
+      const cards = Array.from(reviewGrid.querySelectorAll(".g-review-card"));
+      filterButtons.forEach((btn) => {
+        if (btn.dataset.bound) return;
+        btn.dataset.bound = "true";
+        btn.addEventListener("click", () => {
+          const cat = btn.dataset.reviewFilter;
+          filterButtons.forEach((b) => b.classList.toggle("active", b === btn));
+          cards.forEach((card) => {
+            const match = cat === "all" || card.dataset.reviewCat === cat;
+            card.style.display = match ? "" : "none";
+          });
+        });
+      });
+    }
+
+    // 9. Active Navigation State for Multipage Architecture
+    const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
+    document.querySelectorAll("#mainNav a").forEach((link) => {
+      const href = (link.getAttribute("href") || "").split("#")[0].replace(/\/+$/, "") || "/";
+      if (href === currentPath && !(link.getAttribute("href") || "").includes("#")) {
+        link.setAttribute("aria-current", "page");
+      }
+    });
+
     // 7. Instant Quote Form -> WhatsApp Generator
     const form = document.getElementById("quoteForm");
     if (form && !form.dataset.bound) {

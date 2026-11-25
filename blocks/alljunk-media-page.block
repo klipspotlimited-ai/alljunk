@@ -1,0 +1,20 @@
+<main id="main" class="alljunk-multipage">
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="page-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <span>Before &amp; After Gallery</span></nav>
+      <span class="eyebrow">Real Local Clearance Results</span>
+      <h1>Before &amp; After Rubbish Clearances &amp; <span>Shed Demolitions</span></h1>
+      <p class="hero-copy">See the difference our team makes across Bromley, Kent and South East London — from overgrown gardens and packed garages to complete shed and garage demolitions left swept clean.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote.%20My%20postcode%20is%3A%20" rel="noopener" target="_blank">Send Your Photos on WhatsApp</a>
+        <a class="btn btn-outline" href="/testimonials">Read 90+ Customer Reviews</a>
+      </div>
+    </div>
+  </section>
+
+  {@|apply alljunk-results.block}
+  {@|apply alljunk-why-choose.block}
+  {@|apply alljunk-demolition.block}
+  {@|apply alljunk-reviews.block}
+  {@|apply alljunk-contact.block}
+</main>

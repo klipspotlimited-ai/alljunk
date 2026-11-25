@@ -1,0 +1,81 @@
+<main id="main" class="alljunk-multipage">
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="page-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <span>Services</span></nav>
+      <span class="eyebrow">Licensed Waste Carrier CBDU195530</span>
+      <h1>Rubbish Removal &amp; Clearance Services in <span>Bromley, Kent &amp; SE London</span></h1>
+      <p class="hero-copy">From a single bulky sofa or fridge to full house clearances, builders waste and garage &amp; shed demolition — we load everything, sweep up afterwards and recycle at least 75% of waste.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote.%20My%20postcode%20is%3A%20" rel="noopener" target="_blank">Send Photos on WhatsApp</a>
+        <a class="btn btn-outline" href="tel:+447931935833">Call 07931 935 833</a>
+        <a class="btn btn-outline" href="/pricing">View Load Prices</a>
+      </div>
+    </div>
+  </section>
+
+  {@|apply alljunk-services.block}
+
+  <section class="service-deep-dives" id="core-services">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-kicker">Specialist Clearances</div>
+        <h2>Tailored collections for homeowners, landlords &amp; trades</h2>
+        <p>Unlike hiring a skip, you never need a council road permit or days of space on your drive. Our team arrives in a high-capacity tipper truck, does all the lifting and leaves the area swept clean.</p>
+      </div>
+      <div class="deep-dive-grid">
+        <article class="deep-dive-card" id="house-clearance">
+          <div class="section-kicker">Homes &amp; Landlords</div>
+          <h3>House, Loft &amp; Flat Clearances</h3>
+          <p>Full and part-property clearances across Bromley, Beckenham, Orpington and South East London. Ideal for end-of-tenancy clear-outs, pre-sale decluttering, probate clearances and moving house.</p>
+          <ul>
+            <li>All lifting from lofts, basements, gardens and living rooms included</li>
+            <li>Sofas, beds, wardrobes, carpets, appliances and bagged rubbish cleared</li>
+            <li>Same-day or next-day slots regularly available</li>
+          </ul>
+          <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20house%20clearance%20quote" target="_blank" rel="noopener">WhatsApp for a House Clearance Quote</a>
+        </article>
+
+        <article class="deep-dive-card" id="garage-clearance">
+          <div class="section-kicker">Outbuildings &amp; Gardens</div>
+          <h3>Garage, Shed &amp; Garden Clearances</h3>
+          <p>Reclaim your garage, driveway or garden without lifting a finger. We clear years of accumulated clutter, broken tools, racking, green waste, old paving and outdoor furniture in a single visit.</p>
+          <ul>
+            <li>Green waste, soil, branches, fencing, decking and old patio timber</li>
+            <li>Garage clutter, bikes, appliances, tyres and renovation offcuts</li>
+            <li>Swept tidy before we leave</li>
+          </ul>
+          <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20garage%20or%20garden%20clearance%20quote" target="_blank" rel="noopener">WhatsApp for a Garage Quote</a>
+        </article>
+
+        <article class="deep-dive-card" id="furniture-removal">
+          <div class="section-kicker">Single Items &amp; Appliances</div>
+          <h3>Sofa, Mattress &amp; Fridge Collection</h3>
+          <p>Need one or two bulky items gone quickly? With a £40 minimum charge and clear item pricing, we collect sofas, mattresses, fridges, freezers and washing machines across Bromley and nearby towns.</p>
+          <ul>
+            <li>Single Mattress £30 · Double Mattress £40 · Above Double £50</li>
+            <li>Fridges From £65 · Fridge Freezers From £65 · Tyres &amp; Gas Bottles £15</li>
+            <li>Licensed WEEE &amp; commercial waste transfer disposal</li>
+          </ul>
+          <a class="btn btn-primary" href="/pricing">See Full Item &amp; Load Pricing</a>
+        </article>
+
+        <article class="deep-dive-card" id="builders-waste">
+          <div class="section-kicker">Trades &amp; Renovations</div>
+          <h3>Builders Waste &amp; Rip-Out Rubbish</h3>
+          <p>Wait-and-load collections for bathroom rip-outs, kitchen refits, rubble, timber, plasterboard, tiles and commercial premises across Bromley, Kent and South East London.</p>
+          <ul>
+            <li>No skip permit delays or parking suspension fees</li>
+            <li>Parking and congestion charges included in your agreed quote</li>
+            <li>Upper-tier Environment Agency Waste Carrier (CBDU195530)</li>
+          </ul>
+          <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20builders%20waste%20quote" target="_blank" rel="noopener">WhatsApp Builders Waste Photos</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  {@|apply alljunk-demolition.block}
+  {@|apply alljunk-process.block}
+  {@|apply alljunk-reviews.block}
+  {@|apply alljunk-contact.block}
+</main>

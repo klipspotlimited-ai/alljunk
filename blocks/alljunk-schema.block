@@ -14,8 +14,8 @@
         "@type": "WebPage",
         "@id": "https://www.alljunksolutions.co.uk/#webpage",
         "url": "https://www.alljunksolutions.co.uk/",
-        "name": "Rubbish Removal Bromley & South East London | All Junk",
-        "description": "Licensed rubbish removal across Bromley, Kent and South East London. Clear pricing, responsible disposal and fast WhatsApp quotes.",
+        "name": "Rubbish Removal Bromley, Kent & SE London | All Junk Solutions",
+        "description": "Licensed rubbish removal, house clearances and garage & shed demolition across Bromley, Kent and South East London. Clear load pricing and fast WhatsApp quotes.",
         "mainEntity": { "@id": "https://www.alljunksolutions.co.uk/#business" },
         "isPartOf": { "@id": "https://www.alljunksolutions.co.uk/#website" },
         "about": { "@id": "https://www.alljunksolutions.co.uk/#business" },
@@ -25,8 +25,8 @@
       {
         "@type": "ImageObject",
         "@id": "https://www.alljunksolutions.co.uk/#primaryimage",
-        "url": "https://www.alljunksolutions.co.uk/assets/all-junk-van-street.webp",
-        "contentUrl": "https://www.alljunksolutions.co.uk/assets/all-junk-van-street.webp",
+        "url": "https://www.alljunksolutions.co.uk/assets/all-junk-social-preview.jpg",
+        "contentUrl": "https://www.alljunksolutions.co.uk/assets/all-junk-social-preview.jpg",
         "caption": "All Junk Solutions rubbish removal vehicle"
       },
       {
@@ -36,8 +36,8 @@
         "legalName": "All Junk Solutions Limited",
         "url": "https://www.alljunksolutions.co.uk/",
         "logo": "https://www.alljunksolutions.co.uk/assets/all-junk-logo-transparent.png",
-        "image": "https://www.alljunksolutions.co.uk/assets/all-junk-van-street.webp",
-        "description": "Licensed junk and waste collection for domestic and commercial clearances across Bromley, Kent and South East London.",
+        "image": "https://www.alljunksolutions.co.uk/assets/all-junk-social-preview.jpg",
+        "description": "Licensed junk and waste collection, house clearances and garage & shed demolition for domestic and commercial customers across Bromley, Kent and South East London.",
         "telephone": "+447931935833",
         "email": "info@alljunksolutions.co.uk",
         "identifier": [
@@ -49,6 +49,10 @@
         "paymentAccepted": "Cash, Bank transfer",
         "areaServed": [
           { "@type": "Place", "name": "Bromley" },
+          { "@type": "Place", "name": "Beckenham" },
+          { "@type": "Place", "name": "Orpington" },
+          { "@type": "Place", "name": "Chislehurst" },
+          { "@type": "Place", "name": "West Wickham" },
           { "@type": "AdministrativeArea", "name": "Kent" },
           { "@type": "Place", "name": "South East London" }
         ],
@@ -59,29 +63,36 @@
         "sameAs": [
           "https://www.facebook.com/alljunksolutions/",
           "https://www.instagram.com/alljunksolutions/",
-          "https://www.google.com/maps/search/?api=1&query=All%20Junk%20Solutions%20Pope%20Road%20Bromley"
+          "https://maps.app.goo.gl/czcm2XFHp3UNhPme9"
         ],
-        "hasMap": "https://www.google.com/maps/search/?api=1&query=All%20Junk%20Solutions%20Pope%20Road%20Bromley",
+        "hasMap": "https://maps.app.goo.gl/czcm2XFHp3UNhPme9",
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+447931935833",
           "contactType": "customer service",
-          "areaServed": ["Bromley", "South East London", "Kent"],
+          "areaServed": ["Bromley", "Beckenham", "Orpington", "South East London", "Kent"],
           "availableLanguage": "English"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "Rubbish removal services",
+          "name": "Rubbish removal and waste clearance services",
           "itemListElement": [
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Domestic rubbish removal", "areaServed": "Bromley, Kent and South East London" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial rubbish removal", "areaServed": "Bromley, Kent and South East London" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Garden waste removal", "areaServed": "Bromley, Kent and South East London" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "House and garage clearance", "areaServed": "Bromley, Kent and South East London" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Garage, shed and small outbuilding demolition", "areaServed": "Bromley, Kent and South East London" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Garden waste removal", "areaServed": "Bromley, Kent and South East London" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Builders and renovation waste collection", "areaServed": "Bromley, Kent and South East London" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial and office clearance", "areaServed": "Bromley, Kent and South East London" } },
+            { "@type": "Offer", "name": "Minimum charge rubbish collection", "price": "40", "priceCurrency": "GBP" },
             { "@type": "Offer", "name": "Quarter load rubbish removal", "price": "125", "priceCurrency": "GBP" },
             { "@type": "Offer", "name": "Half load rubbish removal", "price": "250", "priceCurrency": "GBP" },
             { "@type": "Offer", "name": "Three-quarter load rubbish removal", "price": "350", "priceCurrency": "GBP" },
-            { "@type": "Offer", "name": "Full load rubbish removal", "price": "425", "priceCurrency": "GBP" }
+            { "@type": "Offer", "name": "Full load rubbish removal", "price": "425", "priceCurrency": "GBP" },
+            { "@type": "Offer", "name": "Single mattress disposal", "price": "30", "priceCurrency": "GBP" },
+            { "@type": "Offer", "name": "Double mattress disposal", "price": "40", "priceCurrency": "GBP" },
+            { "@type": "Offer", "name": "Above double mattress disposal", "price": "50", "priceCurrency": "GBP" },
+            { "@type": "Offer", "name": "Fridge or fridge freezer disposal", "price": "65", "priceCurrency": "GBP" },
+            { "@type": "Offer", "name": "Gas bottle or tyre disposal", "price": "15", "priceCurrency": "GBP" }
           ]
         }
       },
@@ -89,12 +100,12 @@
         "@type": "FAQPage",
         "@id": "https://www.alljunksolutions.co.uk/#faq-schema",
         "mainEntity": [
-          { "@type": "Question", "name": "How do I get a quote?", "acceptedAnswer": { "@type": "Answer", "text": "Send photos of the rubbish on WhatsApp with your postcode and a short note. The team can then estimate the load and waste type." } },
+          { "@type": "Question", "name": "How do I get a quote?", "acceptedAnswer": { "@type": "Answer", "text": "Send photos of the rubbish on WhatsApp with your postcode and a short note to 07931 935 833. The team can then estimate the load and waste type." } },
           { "@type": "Question", "name": "What is included in the price?", "acceptedAnswer": { "@type": "Answer", "text": "The team loads the waste, removes it, sweeps up after collection and disposes of it responsibly at licensed facilities. Parking and congestion charges are not added as extras." } },
-          { "@type": "Question", "name": "Are you a licensed waste carrier?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. All Junk Solutions lists Environment Agency waste carrier registration CBDU195530." } },
-          { "@type": "Question", "name": "What waste can you collect?", "acceptedAnswer": { "@type": "Answer", "text": "Typical collections include household rubbish, furniture, garden waste, electronics, white goods, household fittings, builders waste and commercial clearances." } },
-          { "@type": "Question", "name": "What can you not collect?", "acceptedAnswer": { "@type": "Answer", "text": "All Junk Solutions does not collect toxic chemicals, gas canisters, asbestos, paint or other hazardous waste." } },
-          { "@type": "Question", "name": "Can businesses book a clearance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The service covers offices, restaurants and other commercial premises in Bromley, Kent and South East London." } }
+          { "@type": "Question", "name": "Are you a licensed waste carrier?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. All Junk Solutions holds upper-tier Environment Agency waste carrier registration CBDU195530." } },
+          { "@type": "Question", "name": "What waste can you collect?", "acceptedAnswer": { "@type": "Answer", "text": "Typical collections include household rubbish, furniture, mattresses, fridges, garden waste, electronics, white goods, household fittings, builders waste, shed demolition waste and commercial clearances." } },
+          { "@type": "Question", "name": "What can you not collect?", "acceptedAnswer": { "@type": "Answer", "text": "All Junk Solutions does not collect toxic chemicals, hazardous gas canisters, asbestos, wet paint or other hazardous waste." } },
+          { "@type": "Question", "name": "Can businesses book a clearance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The service covers offices, restaurants, landlords, trades and commercial premises across Bromley, Kent and South East London." } }
         ]
       }
     ]

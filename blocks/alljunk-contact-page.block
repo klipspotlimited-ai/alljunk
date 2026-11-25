@@ -1,0 +1,44 @@
+<main id="main" class="alljunk-multipage">
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="page-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <span>Contact &amp; Fast Quote</span></nav>
+      <span class="eyebrow">Fastest Route: WhatsApp Photo Quote</span>
+      <h1>Send Photos for a Fast <span>Rubbish Removal Quote</span></h1>
+      <p class="hero-copy">Skip the guesswork. Send 2–3 photos of the rubbish and your postcode on WhatsApp to <strong>07931 935 833</strong> — James will reply with a clear price and available collection slot.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/447931935833?text=Hi%20All%20Junk%20Solutions%2C%20I%27d%20like%20a%20quote.%20My%20postcode%20is%3A%20" rel="noopener" target="_blank">Open WhatsApp &amp; Send Photos</a>
+        <a class="btn btn-outline" href="tel:+447931935833">Call 07931 935 833</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="whatsapp-journey-section">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-kicker">3-Step Mobile Quote Journey</div>
+        <h2>How to get a fixed quote in minutes</h2>
+        <p>Most customers book straight from their phone in three quick steps.</p>
+      </div>
+      <div class="process-grid">
+        <article class="step">
+          <div class="step-num">1</div>
+          <h3>Snap 2–3 photos</h3>
+          <p>Take clear photos of the rubbish, furniture, garden waste, shed or garage you need cleared.</p>
+        </article>
+        <article class="step">
+          <div class="step-num">2</div>
+          <h3>Send on WhatsApp with postcode</h3>
+          <p>Tap any WhatsApp button or message <strong>07931 935 833</strong> with your photos, collection postcode and any access notes.</p>
+        </article>
+        <article class="step">
+          <div class="step-num">3</div>
+          <h3>Agree quote &amp; we load everything</h3>
+          <p>Once you are happy with the price, we book your slot, load all the waste, sweep the area tidy and dispose of it at licensed facilities.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  {@|apply alljunk-contact.block}
+  {@|apply alljunk-reviews.block}
+</main>
